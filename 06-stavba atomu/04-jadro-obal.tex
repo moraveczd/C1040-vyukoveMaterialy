@@ -1,0 +1,214 @@
+\documentclass[hyperref=unicode]{beamer}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{mhchem}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\adjustboxset*{center}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+
+%dělení slov
+\usepackage{ragged2e}
+\let\raggedright=\RaggedRight
+%konec dělení slov
+
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{czech}
+
+\def\uv#1{„#1“}
+
+\mode<presentation>{\usetheme{Madrid}}
+\DefineNamedColor{named}{pozadi}{RGB}{200,200,200}
+\usecolortheme{crane}
+
+\setbeamertemplate{footline}[frame number]
+
+\addtobeamertemplate{frametitle}{
+	\let\insertframetitle\insertsectionhead}{}
+\addtobeamertemplate{frametitle}{
+	\let\insertframesubtitle\insertsubsectionhead}{}
+
+\makeatletter
+\CheckCommand*\beamer@checkframetitle{\@ifnextchar\bgroup\beamer@inlineframetitle{}}
+\renewcommand*\beamer@checkframetitle{\global\let\beamer@frametitle\relax\@ifnextchar\bgroup\beamer@inlineframetitle{}}
+\makeatother
+\setbeamercolor{section in toc}{fg=blue}
+\setbeamertemplate{section in toc shaded}[default][100]
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes.multipart}
+
+\title[Crisis]
+{Atomové jádro, elektronový obal}
+%\subtitle{\url{http://z-moravec.net/chemie/zaklady-chemie/}}
+\subtitle{}
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{Atomové jádro}
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Atomové jádro je tvořeno protony a neutrony
+	\item Prvek je látka skládající se z atomů se stejným počtem protonů
+	\item Nuklid je systém tvořený prvky se stejným počtem neutronů
+	\item Izotopy jsou atomy prvku s různým počtem neutronů
+	\begin{itemize}
+		\item $^{12}_{\ 6}C$, $^{13}_{\ 6}C$, $^{14}_{\ 7}N$, $^{15}_{\ 7}N$
+	\end{itemize}
+	\item $^A_ZX$
+	\begin{itemize}
+	\item A - nukleonové číslo - počet nukleonů (protonů a neutronů) v jádře
+	\item Z - protonové číslo - počet protonů v jádře
+	\end{itemize}
+	\item \textbf{Relativní atomová hmotnost} je dána hmotnostním poměrem atomových hmotností jednotlivých izotopů prvku.
+	\item Chlor: $^{35}$Cl (75,529 \%), $^{37}$Cl (24,471 \%)
+	\item $Ar(Cl) = w(^{35}Cl)\cdot A(^{35}Cl) +w(^{37}Cl)\cdot A(^{37}Cl) = 0,75529\cdot 34,97 + 0,24471\cdot 36,97 = 35,45$
+	\end{itemize}
+}
+
+\section{Stabilita atomových jader}
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Na stabilitu má vliv velikost vazebné energie jádra a poměr mezi počtem protonů a neutronů. U lehkých jader je poměr zhruba 1:1, se vzrůstajícím protonovým číslem dochází ke zvyšování přebytku neutronů
+	\item Vazebná energie je energie, která se uvolní při vzniku jádra z volných nukleonů
+	\item Nejvíce stabilních jader má protonové i neutronové číslo sudé, např.~\ce{^{12}_6C}, \ce{^{16}_8O}, ...
+	\item Naopak kombinace lichého protonového a neutronového čísla je u stabilních jader vzácná, známe pouze čtyři: \ce{^1_1H}, \ce{^6_3Li}, \ce{^{10}_5B} a \ce{^{14}_7N}
+	\end{itemize}
+}
+
+\section{Radioaktivní rozpady}
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Pokud je v jádru nadbytek neutronů nebo protonů, jádro se přemění na stabilnější.
+	\begin{itemize}
+	\item $\alpha$ rozpad - rozpad charakteristický pro těžší jádra, dojde k uvolnění $\alpha$-částice (jádro \ce{^4_2He^{2+}}), vzniklé jádro má protonové číslo menší o 2 a~nukleonové o 4
+	\item \ce{^{226}_{88}Ra -> ^{222}_{86}Rn + ^4_2He}
+	\item V případě nadbytku neutronů může dojít k rozpadu neutronu na proton a elektron, během přeměny se uvolňuje částice $\beta^-$ ($^0_{-1}e^-$)
+	\item \ce{^{32}_{15}P -> ^{32}_{16}S + ^0_{-1}e}
+	\item V případě nadbytku protonů může dojít k rozpadu protonu na neutron a pozitron, během přeměny se uvolňuje částice $\beta^+$ ($^0_{+1}e^+$)
+	\item \ce{^{11}_{6}C -> ^{11}_{5}B + ^0_{+1}e}
+	\item Nadbytek protonů v jádře může být kompenzován i pomocí \textit{elektronového záchytu}, kdy proton pohltí elektron a vznikne neutron
+	\item \ce{^{7}_{4}Be + ^0_{-1}e -> ^{7}_{3}Li}
+	\end{itemize}
+	\end{itemize}
+}
+
+\section{Jaderné reakce}
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item \textbf{Poločas rozpadu} - doba, za kterou dojde k rozpadu poloviny jader v systému
+	\item Pravděpodobnostní veličina
+	\item Charakteristika nestabilních jader, pohybuje se od zlomků sekund až po milióny let
+	\item $\frac{dN}{dt} = -\lambda N$
+	\item $N(t) = N_0 e^{-\lambda t}$
+	\item \scalebox{1.5}{$t_{\frac{1}{2}} = \frac{\ln 2}{\lambda} = \tau \ln 2$}
+	\begin{itemize}
+	\item $N$ - počet částic
+	\item $N_0$ - počet částic na počátku
+	\item $\lambda$ - rozpadová konstanta
+	\item $\tau$ - doba života jádra - $\tau = \frac{1}{\lambda}$
+	\end{itemize}
+	\end{itemize}
+}
+
+\section{Elektronový obal}
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Elektrony vázané k atomovému jádru
+	\item Elektronový obal tvoří asi 0,01 \% hmotnosti atomu, ale tvoří většinu jeho objemu
+	\item Poloměr elektronového obalu je řádově $10^{-10}$ m
+	\item Elektrony vykazují dualitu chování, v důsledku Heisenbergova principu neurčitosti nelze přesně určit polohu elektrou v atomu, proto popisujeme pouze pravděpodobnost výskytu elektronu
+	\item Počet elektronů v obalu atomu (elektroneutrální částice) je shodný s~počtem protonů v jádře
+	\item Elektrony se v obalu pohybují v prostoru vymezeném řešením Schrödingerovy rovnice, tento prostor označujeme jako \textbf{atomový orbital}
+	\item \textbf{Valenční elektrony} - elektrony v poslední zaplněné slupce obalu, účastní se chemických dějů
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Elektron v atomu můžeme popsat čtyřmi kvantovými čísly
+	\begin{itemize}
+	\item Hlavní kvantové číslo (n) - popisuje příslušnost orbitalu do elektronové slupky -- velikost orbitalu. Nabývá hodnot větších než 0.
+	\item Vedlejší kvantové číslo (l) - popisuje tvar orbitalu. Často se používá označení pomocí písmen: s, p, d, f, g, h, ... Nabývá hodnot v~intervalu $<0, n-1>$.
+	\item Magnetické kvantové číslo (m) - popisuje prostorovou orientaci orbitalu. Nabývá hodnot v intervalu $<-l; l>$.
+	\item Spinové kvantové číslo (s) - nepopisuje orbital, ale spin elektronu v~orbitalu. Nabývá hodnot $\pm$\textonehalf.
+	\end{itemize}
+	\item \textbf{Pauliho princip výlučnosti} - v atomu nemohou existovat dva elektrony, které by měly shodná všechna čtyři kvantová čísla, musí se lišit alespoň spinem, tzn. že do jednoho atomového orbitalu se vejdou maximálně dva elektrony.
+	\item \textbf{Výstavbový (Aufbau) princip} - elektrony zaplňují orbitaly od energeticky nejnižších. První jsou zaplňovány volné orbitaly s~nejnižším součtem n+l.
+	\end{itemize}
+}
+
+\section{Elektronová konfigurace}
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Popisuje zaplnění atomových orbitalů elektrony
+	\item Orbitaly jsou zaplňovány v pořadí: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p
+	\item d-orbitaly se zaplňují až po zaplnění s-orbitalu s hlavním kvantovým číslem (n+1), např. 3d orbital se začne plnit až po 4s
+	\item Zápis elektronové konfigurace: C: 1s$^2$ 2s$^2$ 2p$^2$; P: 1s$^2$ 2s$^2$ 2p$^6$ 3s$^2$ 3p$^3$
+	\item Zkrácený zápis elektronové konfigurace: C: [He] 2s$^2$ 2p$^2$; P: [Ne] 3s$^2$ 3p$^3$
+	\item U nepřechodných prvků (s a p blok PSP) je zaplňování orbitalů dáno jejich energetickým pořadím. Sb: [Kr] 4d$^{10}$ 5s$^2$ 5p$^3$
+	\item U přechodných (d blok) a vnitřně přechodných (f blok) prvků nacházíme výjimky a nepravidelnosti v pořadí zaplňování orbitalů
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item \textbf{Změna pořadí energetických hladin}
+	\end{itemize}
+
+	\begin{tabular}{ll}
+	K & [Ar] 4s$^1$ (3d$^0$ 4p$^0$) \\
+	Ca & [Ar] 4s$^2$ (3d$^0$ 4p$^0$) \\
+	\hline \hline
+	Sc & [Ar] 3d$^1$ 4s$^2$ (4p$^0$) \\
+	Ti & [Ar] 3d$^2$ 4s$^2$ (4p$^0$) \\
+	\end{tabular}
+
+	\begin{itemize}
+	\item \textbf{Vyšší stabilita zpola zaplněných d-orbitalů}
+	\item U prvků 6. a 11. skupiny dochází k přeskoku jednoho elektronu z~orbitalu s do orbitalu d, tím vzniká konfigurace se zpola nebo zcela zaplněným d-orbitalem.
+	\item Cr: [Ar]  3d$^5$ 4s$^1$
+	\item Cu: [Ar]  3d$^{10}$ 4s$^1$
+	\item U f-prvků (lanthanoidy a aktinoidy) je elektronová konfigurace  (n–2)f$^{1-14}$(n–1)d$^{0-1}$ns$^2$
+	\item Gd: [Xe] 4f$^7$ 5d$^1$ 6s$^2$
+	\item U: [Rn] 5f$^3$ 6d$^1$ 7s$^2$
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Při vzniku \emph{kationtů} se uvolňují elektrony z HOMO orbitalu (Highest Occupied Molecular Orbital - nejvyšší obsazený molekulový orbital).
+	\item Při vzniku \emph{aniontů} elektrony vstupují do LUMO orbitalu (Lowest Unoccupied Molecular Orbital - nejnižší neobsazený molekulový orbital).
+	\end{itemize}
+
+	\begin{tabular}{|l|l|l|l|}
+	\hline
+	Na & [Ne] 3s$^1$ & Na$^+$ & [Ne] (3s$^0$) \\ \hline
+	Ba & [Xe] 3s$^2$ & Ba$^{2+}$ & [Xe]  \\ \hline
+	Fe & [Ar] 3d$^6$ 4s$^2$ & Fe$^{3+}$ & [Ar] 3d$^5$ \\ \hline
+	Cu & [Ar] 3d$^{10}$ 4s$^1$ & Cu$^{2+}$ & [Ar] 3d$^9$ \\ \hline
+	S & [Ne] 3s$^2$ 3p$^4$ & S$^{2-}$ & [Ne] 3s$^2$ 3p$^6 \equiv$ [Ar] \\ \hline
+	Cl & [Ne] 3s$^2$ 3p$^5$ & Cl$^-$ & [Ne] 3s$^2$ 3p$^6 \equiv$ [Ar] \\ \hline
+	\end{tabular}
+}
+
+\end{document}

@@ -1,0 +1,156 @@
+\documentclass[hyperref=unicode]{beamer}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{mhchem}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\adjustboxset*{center}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+
+%dělení slov
+\usepackage{ragged2e}
+\let\raggedright=\RaggedRight
+%konec dělení slov
+
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{czech}
+
+\def\uv#1{„#1“}
+
+\mode<presentation>{\usetheme{Madrid}}
+\DefineNamedColor{named}{pozadi}{RGB}{200,200,200}
+\usecolortheme{crane}
+
+\setbeamertemplate{footline}[frame number]
+
+\addtobeamertemplate{frametitle}{
+	\let\insertframetitle\insertsectionhead}{}
+\addtobeamertemplate{frametitle}{
+	\let\insertframesubtitle\insertsubsectionhead}{}
+
+\makeatletter
+\CheckCommand*\beamer@checkframetitle{\@ifnextchar\bgroup\beamer@inlineframetitle{}}
+\renewcommand*\beamer@checkframetitle{\global\let\beamer@frametitle\relax\@ifnextchar\bgroup\beamer@inlineframetitle{}}
+\makeatother
+\setbeamercolor{section in toc}{fg=blue}
+\setbeamertemplate{section in toc shaded}[default][100]
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes.multipart}
+
+\title[Crisis]
+{Chemické rovnice}
+
+\subtitle{Vyčíslování chemických rovnic, stechiometrické výpočty}
+
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{Vyčíslování chemických rovnic}
+\frame{
+	\frametitle{}
+	\begin{itemize}
+	\item Na obou stranách rovnice musí být stejný počet atomů.
+	\item V případě redoxních rovnic je nutné udělat i elektronovou bilanci.
+	\item \ce{NaOH + H2SO4 -> Na2SO4 + H2O}
+	\item \ce{2\ NaOH + H2SO4 -> Na2SO4 + 2\ H2O}
+	\item Jednodušší neredoxní rovnice lze vyčíslit intuitivně.
+	\item Složitější vyčíslujeme pomocí soustavy rovnic.
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{}
+\ce{a\ Na2WO4 + b\ SiO2 + c\ HCl -> d\ Na4[Si(W3O10)4] + e\ NaCl + f\ H2O}
+\begin{tabular}{lr@{=}l}
+Na & 2a & 4d + e\\
+W & a & 12d\\
+O & 4a + 2b & 40d + f\\
+Si & b & d\\
+H & c & 2f\\
+Cl & c & e\\
+\end{tabular}
+
+Rovnice nejsou nezávislé, proto nemá soustava pouze jedno řešení. Volíme vždy takový výsledek, aby byly všechny koeficienty celočíselné a co nejmenší.
+\\
+\ce{12\ Na2WO4 + SiO2 + 20\ HCl -> Na4[Si(W3O10)4] + 20\ NaCl + 10\ H2O}
+}
+
+\section{Vyčíslování redoxních rovnic}
+\frame{
+	\frametitle{}
+Kromě počtu atomů musíme brát do úvahy i počty vyměňovaných elektronů.\\
+\ce{Sb2O3 + Br2 + KOH -> K3SbO4 + KBr + H2O}
+\vspace{5mm}
+
+Redukce: \ce{Br^0 -> Br^{-I}} - spotřebuje se jeden elektron\\
+Oxidace: \ce{Sb^{III} -> Sb^{V}} - uvolní se dva elektrony\\
+\vspace{3mm}
+\begin{picture}(0,0)
+\put(0,-1){Br: 1}
+\put(60,-1){2}
+\put(0,-32){Sb: 2}
+\put(60,-32){1}
+\put(25,0){\vector(1,-1){30}}
+\put(25,-30){\vector(1,1){30}}
+\end{picture}
+\\
+\vspace{5mm}
+\raisebox{-8ex}{
+\ce{Sb2O3 +2\ Br2 + 10\ KOH -> 2\ K3SbO4 + 4\ KBr + 5\ H2O}}
+}
+
+\section{Vyčíslování iontových rovnic}
+\frame{
+	\frametitle{}
+Kromě počtu atomů a vyměňovaných elektronů musíme zajistit i rovnost nábojů na obou stranách rovnice.\\
+\vspace{3mm}
+\ce{Mn^{2+} + MnO4^- + H2O -> MnO2 + H^+}
+\vspace{5mm}
+
+Redukce: \ce{Mn^{VII} -> Mn^{IV}} - spotřebují se tři elektrony\\
+Oxidace: \ce{Mn^{II} -> Mn^{IV}} - uvolní se dva elektrony\\
+\vspace{3mm}
+\begin{picture}(0,0)
+\put(0,-1){Mn: 3}
+\put(60,-1){2}
+\put(0,-32){Mn: 2}
+\put(60,-32){3}
+\put(28,0){\vector(1,-1){30}}
+\put(28,-30){\vector(1,1){30}}
+\end{picture}
+\\
+\vspace{15mm}
+\ce{3\ Mn^{2+} + 2\ MnO4^- + 2\ H2O -> 5\ MnO2 + 4\ H^+}
+\\
+Nábojová bilance: +4 = +4
+}
+
+\section{Stechiometrické výpočty}
+\frame{
+	\frametitle{}
+\begin{itemize}
+\item Je potřeba vycházet ze správně napsané a vyčíslené rovnice.
+\item \ce{{Zn} + 2\ HCl -> ZnCl_2 + H_2}
+\item $\frac{n_{Zn}}{\nu_{Zn}} = \frac{n_{HCl}}{\nu_{HCl}} = \frac{n_{ZnCl_2}}{\nu_{ZnCl_2}} = \frac{n_{H_2}}{\nu_{H_2}}$
+\item $\frac{n_{Zn}}{1} = \frac{n_{HCl}}{2} = \frac{n_{ZnCl_2}}{1} = \frac{n_{H_2}}{1}$
+\item \scalebox{1.5}{$\frac{n}{\nu} = konst$}
+\item $n = \frac{m}{M} = \frac{\rho V}{M} = \frac{V}{V_m} = c.V$
+\item Pokud je některá z reagujících látek v nadbytku, použijeme pro výpočet reaktant jehož poměr $\frac{n}{\nu}$ je nejmenší.
+\item V případě plynných reaktantů nebo produktů, můžeme k výpočtu látkového množství využít molární objem (pozor na správný tlak a teplotu):
+\item $n = \frac{V}{V_m} = \frac{V}{22,414}$
+\item Hodnota V$_m$ je 22,414 dm$^3$.mol$^{-1}$ pro 0 °C a tlak 101,325~kPa.
+\end{itemize}
+}
+
+\end{document}

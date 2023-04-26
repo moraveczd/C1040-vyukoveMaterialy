@@ -1,0 +1,16 @@
+*Názvosloví
+*Základní chemické zákony
+*Platné číslice
+*Vyčíslování redoxních a neredoxních rovnic
+*Stechiometrické výpočty
+*Atom, jádro, jaderné rovnice
+*Elektronové konfigurace
+*Koncentrace
+*Chemická vazba, AO, MO
+*VSEPR - předělat
+Komplexy
+*Plyny
+Krystaly, mřížky
+*Termodynamika, rovnováhy
+*Roztoky, pH
+*Elektrochemie

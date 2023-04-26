@@ -1,0 +1,261 @@
+\documentclass[hyperref=unicode, presentation,10pt]{beamer}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{mhchem}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+
+%dělení slov
+\usepackage{ragged2e}
+\let\raggedright=\RaggedRight
+%konec dělení slov
+
+\addtobeamertemplate{frametitle}{
+	\let\insertframetitle\insertsectionhead}{}
+\addtobeamertemplate{frametitle}{
+	\let\insertframesubtitle\insertsubsectionhead}{}
+
+\makeatletter
+\CheckCommand*\beamer@checkframetitle{\@ifnextchar\bgroup\beamer@inlineframetitle{}}
+\renewcommand*\beamer@checkframetitle{\global\let\beamer@frametitle\relax\@ifnextchar\bgroup\beamer@inlineframetitle{}}
+\makeatother
+\setbeamercolor{section in toc}{fg=red}
+\setbeamertemplate{section in toc shaded}[default][100]
+
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{czech}
+
+\def\uv#1{„#1“}
+
+\mode<presentation>{\usetheme{default}}
+ \usecolortheme{crane}
+
+\setbeamertemplate{footline}[frame number]
+
+\title[Crisis]
+{Základní chemické zákony}
+
+\subtitle{Chemické zákony, látkové množství, atomová a molekulová hmotnost, stechiometrický vzorec, platné číslice}
+
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section{Zákony zachování}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item Zákon zachování hmoty
+	\begin{itemize}
+		\item Lavoisier, 1785
+		\item Hmota se netvoří, ani nemůže být zničena
+	\end{itemize}
+	\item Zákon zachování energie
+	\begin{itemize}
+		\item Energii nelze ani vyrobit, ani zničit, lze ji pouze přeměnit na jiný druh energie.
+	\end{itemize}
+	\item Zákon zachování hmoty a energie
+	\begin{itemize}
+		\item Ekvivalence hmoty a energie je dána rovnicí $E=mc^2$
+		\item $u = 1.66.10^{-27} kg = 931.4 MeV = 1.49.10^{-10} J$
+		\item Uzavřená soustava - hmotnost a energie v soustavě je konstantní
+		\item Otevřená soustava - hmotnost v soustavě je konstantní a energie se vyměňuje s okolím
+	\end{itemize}
+	\end{itemize}
+	\vfill
+}
+
+\section{Zákon stálých poměrů slučovacích}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item Louis Joseph Proust, 1799\footnote[frame]{Proust, J.-L. (1799). Researches on copper, Ann. chim., 32:26-54.}
+	\item Hmotnostní poměr prvků nebo součástí dané sloučeniny je vždy stejný a nezávisí na způsobu přípravy sloučeniny.
+	\end{itemize}
+
+	\begin{align*}
+		\ce{C + O2 &-> CO2} \\
+		\ce{2 CO + O2 &-> 2 CO2} \\
+		\ce{CaCO3 &-> CaO + CO2} \\
+	\end{align*}
+
+	\begin{itemize}
+		\item V \ce{CO2} je vždy obsah uhlíku 27,29~\% a kyslíku 72,71~\%.
+	\end{itemize}
+	\vfill
+}
+
+\section{Zákon násobných poměrů slučovacích}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item John Dalton, 1808
+	\item Tvoří-li spolu dva prvky více sloučenin, pak hmotnosti jednoho prvku, který se slučuje se stejným množstvím prvku druhého, jsou vzájemně v poměrech, které lze vyjádřit malými celými čísly.
+	\end{itemize}
+
+	\begin{center}
+	\begin{tabular}{|l|r@{,}l|r@{,}l|r@{,}l|}
+	\hline
+	Sloučenina & \multicolumn{2}{|c|}{m (N) [g]} & \multicolumn{2}{|c|}{m (O) [g]} &
+	\multicolumn{2}{|c|}{$\frac{m(O) N_2O}{m(O) N_xO_y}$} \\[0.4em]
+	\hline
+	$N_2O$ & 1 & 00 & 0 & 57 & 1 & 00 \\
+	\hline
+	$NO$ & 1 & 00 & 1 & 14 & 2& 00 \\
+	\hline
+	$N_2O_3$ & 1 & 00 & 1 & 72 & 3 & 00 \\
+	\hline
+	$NO_2$ & 1 & 00 & 2 & 28 & 4 & 00 \\
+	\hline
+	$N_2O_5$ & 1 & 00 & 2 & 85 & 5 & 00 \\
+	\hline
+	\end{tabular}
+	\end{center}
+
+	\begin{itemize}
+	\item \textbf{Daltonidy} - sloučeniny, které splňují zákon násobných poměrů slučovacích.
+	\item \textbf{Bertolidy} - nestechiometrické sloučeniny, např. pyrhotin, minerál s přibližným vzorcem $Fe_{1-x}S$, kde $x=0-0,2$.
+	\end{itemize}
+	\vfill
+}
+
+\section{Zákon stálých poměrů objemových}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item Gay-Lussac, 1805
+	\item Při stálém tlaku a teplotě jsou objemy plynů vstupujících spolu do reakce, popřípadě též objemy plynných produktů reakce, vždy ve stejném poměru, který je možno vyjádřit malými celými čísly.
+	\item $1\ dm^3$ kyslíku se sloučí s $2\ dm^3$ vodíku za vzniku $2\ dm^3$ vody.
+	\item $O_2 + 2\ H_2 \rightarrow 2\ H_2O$
+	\end{itemize}
+	\vfill
+}
+
+\section{Avogadrův zákon}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item Amadeo Avogadro
+	\item Stejné objemy všech plynů obsahují za stejného tlaku a teploty vždy stejný počet molekul.
+	\item \scalebox{2}{$\frac{\rho_1}{\rho_2} = \frac{\frac{m_1}{V}}{\frac{m_2}{V}}$}
+	\item Avogadrova konstanta: $N_A = 6,022.10^{23}$ částic. Její hodnotu stanovil roku 1865 rakouský chemik Johan Josef Loschmidt.
+	\item Původně byla definována jako počet atomů ve 12 g nuklidu $^{12}_{\ 6}$C.
+	\item V roce 2018 byla její hodnota zafixována:\footnote[frame]{\href{https://doi.org/10.1103/RevModPhys.93.025010}{CODATA recommended values of the fundamental physical constants: 2018}}
+	\item $N_A = 6,022 140 76 \times 10^{23}$
+	\item Látkové množství: $n=\frac{\mbox{\small počet částic}}{N_A} = \frac{m}{M}$
+	\item Molární objem: $V_m = 22,414 dm^3$. Objem 1 molu plynu za standardních podmínek.
+	\end{itemize}
+	\vfill
+}
+
+\section{Atomová, molekulová a molární hmotnost}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item Hmotnost atomu je dána především počtem protonů a neutronů v~jádře, hmotnost elektronů je zanedbatelná.
+	\item Hmotnost atomu je velmi malé číslo, např. hmotnost $^{12}_{\phantom{0}6}$C je $1,99.10^{-26}$~kg. Proto tuto hmotnost vztahujeme na \emph{atomovou hmotnostní jednotku}, která je rovna $\frac{1}{12}$ hmotnosti nuklidu $^{12}_{\phantom{0}6}$C.\footnote[frame]{\href{http://www.ciaaw.org/}{IUPAC Commission on Isotopic Abundances and Atomic Weights}}
+	\item u = 1,661.10$^{-27}$~kg; $A_r = \frac{m}{u}$
+	\item \textbf{Relativní atomová hmotnost ($A_r$)} je dána hmotnostním poměrem atomových hmotností jednotlivých izotopů prvku.
+	\item Chlor: $^{35}$Cl (75,529 \%), $^{37}$Cl (24,471 \%)\footnote[frame]{\href{http://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&ascii=html&isotype=some}{NIST Atomic Weights and Isotopic Compositions for All Elements}}
+	\item $Ar(Cl) = w(^{35}Cl)\cdot A_r(^{35}Cl) +w(^{37}Cl)\cdot A_r(^{37}Cl) = 0,75529\cdot 34,97 + 0,24471\cdot 36,97 = 35,45$
+	\end{itemize}
+	\vfill
+}
+
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+		\item \textbf{Relativní molekulová hmotnost ($M_r$)} prvku nebo sloučeniny je rovna součtu $A_r$ všech atomů v molekule.
+		\item \ce{H3PO4}:
+		\item $M_r = 2 A_r(H) + A_r(P) + 4 A_r(O) = 2 . 1,01 + 30,97 + 4 . 16,00 = 98,02$
+		\item \textbf{Molární hmotnost (M)} látky je rovna podílu hmotnosti a~látkového množství.
+		\item $M = \frac{m}{n} [g.mol^{-1}]$
+	\end{itemize}
+	\vfill
+}
+
+\section{Stechiometrický vzorec}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item \textbf{Stechiometrický vzorec} vyjadřuje poměr zastoupení prvků v molekule. Získáme jej např. z elementární analýzy.
+	\item Uzavíráme jej do složených závorek \{\}.
+	\item Elementární analýza poskytuje procentuální zastoupení prvků ve zkoumaném vzorku.
+	\item Stechiometrický vzorec nemusí odpovídat pouze jedné sloučenině.
+	\end{itemize}
+	\begin{tabular}{|c|c|c|}
+	\hline
+	\textbf{Sloučenina} & \textbf{Stechiometrický vzorec} & \textbf{Sumární vzorec} \\
+	\hline
+	Voda & \ce{\{H2O\}} & \ce{H2O} \\
+	\hline
+	Modrá skalice & \ce{\{H10O9SCu\}} & \ce{CuSO4.5H2O} \\
+	\hline
+	Methan & \ce{\{CH4\}} & \ce{CH4} \\
+	\hline
+	Ethan & \ce{\{CH3\}} & \ce{C2H6} \\
+	\hline
+	Propan & \ce{\{C3H8\}} & \ce{C3H8} \\
+	\hline
+	Ethyn & \ce{\{CH\}} & \ce{C2H2} \\
+	\hline
+	Cyklobutadien & \ce{\{CH\}} & \ce{C4H4} \\
+	\hline
+	Benzen & \ce{\{CH\}} & \ce{C6H6} \\
+	\hline
+	\end{tabular}
+	\vfill
+}
+
+\subsection{Získání stechiometrického vzorce z elementární analýzy}
+\frame{
+	\frametitle{}
+	\vfill
+	Elementární analýzou fosforečnanu hlinitého bylo zjištěno, že obsahuje 10,22~\%~Al, 35,21~\%~P a 54,56~\%~O. Určete stechiometrický vzorec sloučeniny.\\ \ce{Al_xP_yO_z}\\
+	\begin{tabular}{ccccccccccc}
+	Al & : &  P & : & O & = & $x.A_r(Al)$ & : & $y.A_r(P)$ & : & $z.A_r(O)$ \\
+	Al & : &  P & : & O & = & 10,22 & : & 35,21 & : & 54,56 \\[0.8em]
+	x & : &  y & : & z & = & \scalebox{1.5}{$\frac{10,22}{A_r(Al)}$} & : & \scalebox{1.5}{$\frac{35,21}{A_r(P)}$} & : & \scalebox{1.5}{$\frac{54,56}{A_r(O)}$} \\[0.8em]
+	x & : &  y & : & z & = & \scalebox{1.5}{$\frac{10,22}{26,98}$} & : & \scalebox{1.5}{$\frac{35,21}{30,97}$} & : & \scalebox{1.5}{$\frac{54,56}{16,00}$} \\[0.8em]
+	x & : &  y & : & z & =  & 0,38 & : & 1,14 & : & 3,41 \\
+	x & : &  y & : & z & =  & 1 & : & 3 & : & 9 \\
+	 &  &   &  &  &  &  &  &  &  & \\
+	\end{tabular}
+
+	Jedná se o sloučeninu se stechiometrickým vzorcem \textbf{\ce{AlP_3O_9}}.
+	\vfill
+}
+
+\section{Platné číslice}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+	\item \textbf{Exaktní čísla} --  mají nekonečný počet platných desetinných míst, nemají chybu měření.
+	\item  \textbf{Výsledek měření} - počet platných míst je dán přesností měření.
+	\item Nuly mezi desetinnou čárkou a první nenulovou číslicí nejsou platné číslice. 0,000 \textbf{124}; 0,0\textbf{105 002}
+	\item Nuly, které jsou na konci výsledkou mohou, ale nemusí být platnými číslice, záleží na přesnosti měření. 0,0\textbf{10 400 0}
+	\item Čísla je výhodné zapisovat v exponenciálním tvaru: $1,040.10^{-2}$.
+	\item Při násobení a dělení má výsledek tolik \emph{platných číslic} jako nejméně přesné číslo.
+	\item Při sčítání a odčítání má výsledek tolik \emph{desetinných míst} jako nejméně přesné číslo.
+	\end{itemize}
+	\vfill
+}
+
+\end{document}

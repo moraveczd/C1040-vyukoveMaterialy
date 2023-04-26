@@ -1,0 +1,134 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "19-Izomerie/izomerie.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+            {
+                "bookmarkNumber": 1,
+                "fileName": "../../../Chem-Descartes/Moderní materiály kolem nás/04-Kovy/04-Kovy.tex",
+                "lineNumber": 273,
+                "text": "04-Kovy.tex\n\\item Ocel je slitina želaza s uhlíkem a dalšími prvky, která obsahuje méně než 2,14~\\%"
+            }
+        ],
+        "CurrentFile": "19-Izomerie/izomerie.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 1,
+                "EditorGroup": 0,
+                "FileName": "01-nazvoslovi/01-nazvoslovi.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 450
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "02-zakony/zakony.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "03-PSP/PSP.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "04-rovnice-stechiometrie/stechiometrie.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 33,
+                "EditorGroup": 0,
+                "FileName": "06-stavba atomu/04-jadro-obal.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 46
+            },
+            {
+                "Col": 33,
+                "EditorGroup": 0,
+                "FileName": "08-Koncentrace/06-koncentrace.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 46
+            },
+            {
+                "Col": 18,
+                "EditorGroup": 0,
+                "FileName": "09-VSEPR/07-VSEPR.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 69
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "11-plyny/09-plyny.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 84
+            },
+            {
+                "Col": 55,
+                "EditorGroup": 0,
+                "FileName": "13-termodynamika/10-TD.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 43
+            },
+            {
+                "Col": 55,
+                "EditorGroup": 0,
+                "FileName": "14-pH aktivita/11-pH.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 43
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "15-elektrochemie/12-elektrochemie.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 193
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "17-komplexy/13-komplexy.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 61
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "18-NMR/NMR.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 158
+            },
+            {
+                "Col": 42,
+                "EditorGroup": 0,
+                "FileName": "19-Izomerie/izomerie.tex",
+                "FirstLine": 29,
+                "FoldedLines": "",
+                "Line": 31
+            }
+        ],
+        "MasterFile": "",
+        "VerticalSplit": false
+    }
+}
