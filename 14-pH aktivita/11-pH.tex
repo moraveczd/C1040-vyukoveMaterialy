@@ -58,14 +58,15 @@
 \frame{
 	\frametitle{}
 	\vfill
+	\textbf{Aktivita roztoku}
 	\begin{itemize}
 	\item Popisuje reálné chování roztoku. Na rozdíl od ideálního roztoku, se v reálném roztoku částice navzájem ovlivňují.
 	\item Aktivita jakékoliv čisté látky v kondenzovaném stavu (kapalina nebo pevná látka) je jednotková.
 	\item Aktivita plynu závisí na jeho parciálním tlaku, obvykle se označuje jako \textbf{fugacita}.
-	\item $\mu_i = \mu_i^0 + RT \ln a_i$
+	\item $\mu_i = \mu_i^0 + \textrm{RT} \ln a_i$
 	\item $\mu_i$ - chemický potenciál, $\mu_i^0$ - standardní chemický potenciál
 	\item Ativitu lze vyjádřit jako součin molární koncentrace a aktivitního koeficientu
-	\item $a = \gamma c$
+	\item a $ = \gamma $c
 	\item Aktivitní koeficient je úměrný náboji iontů v roztoku a iontové síle roztoku
 	\end{itemize}
 	\vfill
@@ -75,11 +76,12 @@
 \frame{
 	\frametitle{}
 	\vfill
+	\textbf{Iontová síla roztoku}
 	\begin{itemize}
-	\item $log \gamma = -0,509z^2\sqrt{I}$
+	\item $\log \gamma = -0,509\textrm{z}^2\sqrt{\textrm{I}}$
 	\item I - iontová síla roztoku - popisuje množství iontů v roztoku
-	\item $I = \frac{1}{2}\sum\limits_{i=0}^n c_i z^2_i$
-	\item $c_i$ - molalita; $z_i$ - náboj; 0,509 -- konstanta pro vodné roztoky při 25~$^\circ$C
+	\item $I = \frac{1}{2}\sum\limits_{i=0}^n \textrm{c}_i \textrm{z}^2_i$
+	\item c$_i$ -- molalita; z$_i$ -- náboj; 0,509 -- konstanta pro vodné roztoky při 25~$^\circ$C
 	\end{itemize}
 	\vfill
 }
@@ -88,6 +90,7 @@
 \frame{
 	\frametitle{}
 	\vfill
+	\textbf{Střední aktivitní koeficienty ve vodných roztocích při 25 $^\circ$C}
 	\begin{tabular}{|l||r@{,}l|r@{,}l|r@{,}l|r@{,}l|}
 	\hline
 	$c_m [mol.kg^{-1}]$ & 0 & 1 & 1 & 0 & 4 & 0 & 10 & 0 \\\hline
@@ -106,11 +109,14 @@
 \frame{
 	\frametitle{}
 	\vfill
+	\textbf{Kyseliny a zásady}
 	\begin{itemize}
 	\item Arrheniova teorie - kyseliny jsou látky, které ve vodném roztoku uvolňují ion \ce{H^+}, resp. \ce{H_3O^+}, zásady uvolňují \ce{OH^-}
 	\item Br\o nstedova teorie - kyseliny jsou donory protonů, zásady jejich akceptory
 	\item Lewisova teorie - kyseliny jsou akceptorem elektronových párů, zásady donorem
-	\item \ce{$\underset{\text{zásada}}{\ce{|NH3}}$ + $\underset{\text{kyselina}}{\ce{BF3}}$ -> NH3-BF3}
+	\begin{itemize}
+		\item \ce{$\underset{\text{zásada}}{\ce{|NH3}}$ + $\underset{\text{kyselina}}{\ce{BF3}}$ -> NH3\bond{->}BF3}
+	\end{itemize}
 	\end{itemize}
 	\vfill
 }
@@ -123,11 +129,11 @@
 	\item \ce{HCl + H2O -> H3O^+ + Cl^-}
 	\item \ce{NaOH -> Na^+ + OH^-}
 	\item Slabé kyseliny a zásady - disociují pouze z části
-	\item \ce{CH3COOH + H2O <=>[\text{$pK_a$}] H3O^+ + CH3COO^-}
-	\item \ce{NH3 + H2O <=>[\text{$pK_b$}] OH^- +N{\text{H}$_4^+$}}
-	\item $pK_a$, $pK_b$ - disociační konstanta
-	\item \scalebox{1.2}{$K_a = \frac{\ce{[H3O^+][Cl^-]}}{\ce{[HCl]}}$}; \scalebox{1.2}{$K_b = \frac{\ce{[OH^-][N{\textrm{H}_4^+}]}}{\ce{[NH3]}}$}
-	\item $pK_a = -log K_a; pK_b = -log K_b$
+	\item \ce{CH3COOH + H2O <=>[\text{$\textrm{pK}_a$}] H3O^+ + CH3COO^-}
+	\item \ce{NH3 + H2O <=>[\text{$\textrm{pK}_b$}] OH^- +N{\text{H}$_4^+$}}
+	\item $\textrm{pK}_a$, $\textrm{pK}_b$ - disociační konstanta
+	\item \scalebox{1.2}{$\textrm{K}_a = \frac{\ce{[H3O^+][Cl^-]}}{\ce{[HCl]}}$}; \scalebox{1.2}{$\textrm{K}_b = \frac{\ce{[OH^-][N{\textrm{H}_4^+}]}}{\ce{[NH3]}}$}
+	\item $\textrm{pK}_a = -\log \textrm{K}_a; \textrm{pK}_b = -\log \textrm{K}_b$
 	\end{itemize}
 	\vfill
 }
@@ -139,20 +145,20 @@
 		\begin{column}{.5\textwidth}
 			\begin{tabular}{|l|lr@{,}l|}
 				\hline
-				Kyselina & \multicolumn{3}{|c|}{$pK_a$} \\\hline
+				Kyselina & \multicolumn{3}{|c|}{pK$_a$} \\\hline
 				Fenol & & 9 & 89 \\\hline
-				\ce{H2CO3} & $pK_{a1}$ & 6 & 35 \\\hline
-				& $pK_{a2}$ & 10 & 33 \\\hline
+				\ce{H2CO3} & pK$_{a1}$ & 6 & 35 \\\hline
+				& pK$_{a2}$ & 10 & 33 \\\hline
 				\hline
 				kys. octová & & 4 & 75 \\\hline
 				\ce{HNO2} & & 3 & 29 \\\hline
 				HF & & 3 & 2 \\\hline
-				\ce{H3PO4} & $pK_{a1}$ & 2 & 16 \\\hline
-				& $pK_{a2}$ & 7 & 21 \\\hline
-				& $pK_{a3}$ & 12 & 32 \\\hline
+				\ce{H3PO4} & pK$_{a1}$ & 2 & 16 \\\hline
+				& pK$_{a2}$ & 7 & 21 \\\hline
+				& pK$_{a3}$ & 12 & 32 \\\hline
 				\hline
-				\ce{H3PO3} & $pK_{a1}$ & 2 & 00 \\\hline
-				& $pK_{a2}$ & 6 & 58 \\\hline
+				\ce{H3PO3} & pK$_{a1}$ & 2 & 00 \\\hline
+				& pK$_{a2}$ & 6 & 58 \\\hline
 				\hline
 				kys. trichloroctová & & 0 & 70 \\\hline
 			\end{tabular}
@@ -161,10 +167,10 @@
 		\begin{column}{.5\textwidth}
 			\begin{tabular}{|l|lr@{,}l|}
 				\hline
-				Zásada & \multicolumn{3}{|c|}{$pK_b$} \\\hline
+				Zásada & \multicolumn{3}{|c|}{pK$_b$} \\\hline
 				\ce{Be(OH)2} & & 10 & 30 \\\hline
-				nikotin & $pK_{b1}$ & 5 & 98 \\\hline
-				& $pK_{b2}$ & 10 & 88 \\\hline
+				nikotin & pK$_{b1}$ & 5 & 98 \\\hline
+				& pK$_{b2}$ & 10 & 88 \\\hline
 				\hline
 				\ce{NH3} & & 4 & 75 \\\hline
 				\ce{AgOH} & & 3 & 96 \\\hline
@@ -186,13 +192,26 @@
 	\item Konjugovaná zásada k silné kyselině je slabá
 	\item Konjugovaná kyselina k slabé zásadě je silná
 	\end{itemize}
+	\vfill
+}
+
+\frame{
+	\frametitle{}
+	\vfill
 	\textbf{Autoionizace vody}
 	\begin{itemize}
-	\item Voda je amfoterní, chová se jako kyselina i zásada
-	\item \ce{2 H2O <-> H3O^+ + OH^-}
-	\item Iontový součin vody - $K_w = \ce{[H^+][OH^-]} = 1.10^{-14} mol.dm^{-3}$
-	\item $pK_w = -log K_w = 14$
-	\item Pro konjugovaný pár kyselina-zásada platí: $K_aK_b = K_w; pK_a + pK_b = pK_w$
+		\item Voda je amfoterní, chová se jako kyselina i zásada
+		\item \ce{2 H2O <-> H3O^+ + OH^-}
+		\item Iontový součin vody: 
+		\begin{itemize}
+			\item $\textrm{K}_w = \ce{[H^+][OH^-]} = 1.10^{-14}\ \textrm{mol.dm}^{-3}$
+		\end{itemize}
+		\item $\textrm{pK}_w = -\log \textrm{K}_w = 14$
+		\item Pro konjugovaný pár kyselina-zásada platí: 
+		\begin{itemize}
+			\item $\textrm{K}_a\textrm{K}_b = \textrm{K}_w$
+			\item $\textrm{pK}_a + \textrm{pK}_b = \textrm{pK}_w$
+		\end{itemize}
 	\end{itemize}
 	\vfill
 }
@@ -202,8 +221,8 @@
 	\frametitle{}
 	\vfill
 	\begin{itemize}
-	\item $pH = -\log\ a_{H_3O^+} = -\log[\ce{H3O^+}]$
-	\item $pOH = -\log\ a_{OH^-} = -\log[\ce{OH^-}]$
+	\item $\textrm{pH} = -\log\ \textrm{a}_{H_3O^+} = -\log[\ce{H3O^+}]$
+	\item $\textrm{pOH} = -\log\ \textrm{a}_{OH^-} = -\log[\ce{OH^-}]$
 	\item pH + pOH = 14,00
 	\item pH $<$ 7 - roztok je kyselý
 	\item pH = 7 - roztok je neutrální
@@ -232,14 +251,14 @@
 	\vfill
 	\textbf{Silné kyseliny a zásady}
 	\begin{itemize}
-	\item $pH = -\log[\ce{H^+}] = -\log\ c_{kys} = 14 + \log\ c_{zas} $
+	\item $\textrm{pH} = -\log[\ce{H^+}] = -\log\ c_{kys} = 14 + \log\ c_{zas} $
 	\item pH = 14 - pOH
 	\end{itemize}
 	\textbf{Slabé kyseliny a zásady}
 	\begin{itemize}
 	\item $[\ce{H^+}] = \sqrt{K_a[HA]_0}$
-	\item $pH = \frac{1}{2}pK_a - \frac{1}{2}\log c_{kys}$
-	\item $pH = 14 - \frac{1}{2}pK_b + \frac{1}{2}\log c_{zas}$
+	\item $\textrm{pH} = \frac{1}{2}\textrm{pK}_a - \frac{1}{2}\log c_{kys}$
+	\item $\textrm{pH} = 14 - \frac{1}{2}\textrm{pK}_b + \frac{1}{2}\log c_{zas}$
 	\end{itemize}
 	\textbf{Soli silné kyseliny i zásady}
 	\begin{itemize}
@@ -257,20 +276,20 @@
 	\textbf{Soli slabé kyseliny nebo slabé zásady}
 	\begin{itemize}
 	\item \ce{NH4NO3 + H2O -> NH4^+ + NO3^- + NH3 + H^+}
-	\item $pH = 7 - \frac{1}{2}(pK_b + \log c)$ \\
+	\item $\textrm{pH} = 7 - \frac{1}{2}(\textrm{pK}_b + \log c)$ \\
 	\rule{6cm}{0.4pt}
 	\item \ce{NaF + H2O -> Na^+ + F^- + HF + OH^-}
-	\item $pH = 7 + \frac{1}{2}(pK_a + \log c)$ \\
+	\item $\textrm{pH} = 7 + \frac{1}{2}(\textrm{pK}_a + \log c)$ \\
 	\rule{6cm}{0.4pt}
 	\item \ce{NH4F + H2O -> NH4^+ + F^- + NH3 + H^+ + HF + OH^-}
-	\item $pH = 7 + \frac{1}{2}(pK_a - pK_b)$
+	\item $\textrm{pH} = 7 + \frac{1}{2}(\textrm{pK}_a - \textrm{pK}_b)$
 	\end{itemize}
 
 	\textbf{Příklad}
 	\begin{itemize}
-	\item $pK_a (\ce{HF}) = 3,17$
-	\item $pK_b (\ce{NH3}) = 4,75$
-	\item $pH = 7 + \frac{1}{2}(3,17 - 4,75) = 6,21$
+	\item $\textrm{pK}_a (\ce{HF}) = 3,17$
+	\item $\textrm{pK}_b (\ce{NH3}) = 4,75$
+	\item $\textrm{pH} = 7 + \frac{1}{2}(3,17 - 4,75) = 6,21$
 	\end{itemize}
 	\vfill
 }
@@ -286,8 +305,8 @@
 	\item \ce{CH3COOH + H2O <-> CH3COO^- + H3O^+}
 	\item \ce{CH3COONa + H2O <-> CH3COOH + Na^+ + OH^-}
 	\item Přídavkem kyseliny vzniknou molekuly kyseliny octové, přídavkem zásady ionty octanu. pH roztoku se nezmění.
-	\item $pH = pK_a + \log \frac{[A^-]}{[HA]}$
-	\item $pH = 14 - pK_b + \log \frac{[B]}{[BH^+]}$
+	\item $\textrm{pH} = \textrm{pK}_a + \log \frac{[A^-]}{[HA]}$
+	\item $\textrm{pH} = 14 - \textrm{pK}_b + \log \frac{[B]}{[BH^+]}$
 	\end{itemize}
 	\begin{center}
 	\begin{tabular}{|c|c|c|}
@@ -311,7 +330,7 @@
 
 	\ce{CH3COOH <-> CH3COO^- + H^+}
 
-	$K_a = 10^{-pK_a} = 10^{-4.76} = 0,000017$
+	$K_a = 10^{-\textrm{pK}_a} = 10^{-4.76} = 0,000017$
 
 	$K_a = \frac{[\ce{CH3COO^-}][\ce{H^+}]}{[\ce{CH3COOH}]} = \frac{x.x}{0,2-x}$
 
@@ -327,7 +346,7 @@
 
 	$x = 0,0018$
 
-	$pH = -log[H^+] = -log0,018 = 2,74$
+	$\textrm{pH} = -\log[H^+] = -\log0,018 = 2,74$
 	\vfill
 }
 \iffalse
