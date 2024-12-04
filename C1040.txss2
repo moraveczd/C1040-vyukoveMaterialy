@@ -1,7 +1,7 @@
 {
     "InternalPDFViewer": {
         "Embedded": true,
-        "File": "16-rovnovaha_kinetika/kinetika.pdf"
+        "File": "13-termodynamika/handouts/10-TD-vypocty.pdf"
     },
     "Session": {
         "Bookmarks": [
@@ -12,7 +12,7 @@
                 "text": "04-Kovy.tex\n\\item Ocel je slitina želaza s uhlíkem a dalšími prvky, která obsahuje méně než 2,14~\\%"
             }
         ],
-        "CurrentFile": "16-rovnovaha_kinetika/kinetika.tex",
+        "CurrentFile": "13-termodynamika/handouts/10-TD-vypocty.tex",
         "FileVersion": 1,
         "Files": [
             {
@@ -86,6 +86,14 @@
                 "FirstLine": 0,
                 "FoldedLines": "",
                 "Line": 43
+            },
+            {
+                "Col": 95,
+                "EditorGroup": 0,
+                "FileName": "13-termodynamika/handouts/10-TD-vypocty.tex",
+                "FirstLine": 39,
+                "FoldedLines": "",
+                "Line": 71
             },
             {
                 "Col": 55,
