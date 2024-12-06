@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{chemfig}
+\usepackage[version=4]{mhchem}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\adjustboxset*{center}
+\usepackage{caption}
+\usepackage{chemformula}
+\usepackage{elements}
+
+%dělení slov
+\usepackage{ragged2e}
+\let\raggedright=\RaggedRight
+%konec dělení slov
+
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{czech}
+
+\def\uv#1{„#1“}
+
+\begin{document}
+
+\section{pH}
+\subsection{Vzorce}
+
+\begin{tabular}{|l|l|}
+	\hline
+	Silná kyselina & pH = $-\log$c \\\hline
+	Silná zásada & pH = 14 + $\log$c \\\hline
+	Slabá kyselina & pH = $\frac{1}{2}\textrm{p}K_A-\frac{1}{2}\log$c \\[1em] \hline
+	Slabá zásada & pH = $14\ +\ \frac{1}{2}\log\textrm{c} - \frac{1}{2}\textrm{p}K_B$ \\[1em] \hline
+\end{tabular}
+\end{document}
