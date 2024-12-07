@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,oneside]{book}
+\documentclass[12pt,a4paper,oneside]{article}
 
 \usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
@@ -11,6 +11,8 @@
 \usepackage{caption}
 \usepackage{chemformula}
 \usepackage{elements}
+
+\usepackage{parskip}
 
 %dělení slov
 \usepackage{ragged2e}
@@ -37,17 +39,13 @@
 \author{Zdeněk Moravec, hugo@chemi.muni.cz}
 
 \maketitle
-	
-\tableofcontents
-\clearpage
 
-\let\clearpage\relax
-\chapter{Termodynamika}
+\newpage	
+\tableofcontents
+
 \include{13-TD-vypocty.tex}
 \newpage
 
-\let\clearpage\relax
-\chapter{pH}
 \include{14-pH-vypocty.tex}
 \newpage
 
