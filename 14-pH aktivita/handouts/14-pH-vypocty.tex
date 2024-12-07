@@ -20,6 +20,8 @@
 \usepackage{fontspec}
 \usepackage{unicode-math}
 
+\usepackage{vcell}
+
 \usepackage{polyglossia}
 \setdefaultlanguage{czech}
 
@@ -30,11 +32,27 @@
 \section{pH}
 \subsection{Vzorce}
 
-\begin{tabular}{|l|l|}
-	\hline
-	Silná kyselina & pH = $-\log$c \\\hline
-	Silná zásada & pH = 14 + $\log$c \\\hline
-	Slabá kyselina & pH = $\frac{1}{2}\textrm{p}K_A-\frac{1}{2}\log$c \\[1em] \hline
-	Slabá zásada & pH = $14\ +\ \frac{1}{2}\log\textrm{c} - \frac{1}{2}\textrm{p}K_B$ \\[1em] \hline
+\begin{tabular}{ll}
+	Silná kyselina & pH = $-\log$ c \\
+	& \\
+	Silná zásada & pH = 14 + $\log$ c \\
+	& \\
+	Slabá kyselina & pH = $\frac{1}{2}\textrm{p}K_A-\frac{1}{2}\log$ c \\
+	& \\
+	Slabá zásada & pH = $14\ +\ \frac{1}{2}\log\textrm{c} - \frac{1}{2}\textrm{p}K_B$ \\
+	& \\
+	Sůl slabé k a silné z & pH = $7\ +\ \frac{1}{2}\log\textrm{c} + \frac{1}{2}\textrm{p}K_A$ \\
+	& \\
+	Sůl silné k a slabé z & pH = $7\ -\ \frac{1}{2}\log\textrm{c} - \frac{1}{2}\textrm{p}K_B$ \\
+	& \\
+	Sůl slabé k a slabé z & pH = $7\ +\ \frac{1}{2}\textrm{p}K_A - \frac{1}{2}\textrm{p}K_B$ \\
+	& \\
+	Pufr -- kyselina & pH = $\textrm{p}K_A + \log \frac{[A^-]}{[HA]}$ \\
+	& \\
+	Pufr -- zásada & pH = 14 - $\textrm{p}K_B - \log \frac{[B^+]}{[BOH]}$ \\
 \end{tabular}
+\pagebreak
+
+\subsection{Silné kyseliny a zásady}
+
 \end{document}
