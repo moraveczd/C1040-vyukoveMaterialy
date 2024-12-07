@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper,oneside]{book}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{chemfig}
+\usepackage[version=4]{mhchem}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\adjustboxset*{center}
+\usepackage{caption}
+\usepackage{chemformula}
+\usepackage{elements}
+
+%dělení slov
+\usepackage{ragged2e}
+\let\raggedright=\RaggedRight
+%konec dělení slov
+
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\bfseries}{}{0pt}{\Large}
+
+\usepackage{vcell}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{czech}
+
+\def\uv#1{„#1“}
+
+\begin{document}
+	
+\title{Poznámky k seminářům z obecné chemie}
+\author{Zdeněk Moravec, hugo@chemi.muni.cz}
+
+\maketitle
+	
+\tableofcontents
+\clearpage
+
+\let\clearpage\relax
+\chapter{Termodynamika}
+\include{13-TD-vypocty.tex}
+\newpage
+
+\let\clearpage\relax
+\chapter{pH}
+\include{14-pH-vypocty.tex}
+\newpage
+
+\end{document}
