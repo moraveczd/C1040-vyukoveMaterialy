@@ -1,7 +1,7 @@
 {
     "InternalPDFViewer": {
-        "Embedded": false,
-        "File": ""
+        "Embedded": true,
+        "File": "00-handouts-C1040.pdf"
     },
     "Session": {
         "Bookmarks": [
@@ -12,24 +12,24 @@
                 "text": "04-Kovy.tex\n\\item Ocel je slitina želaza s uhlíkem a dalšími prvky, která obsahuje méně než 2,14~\\%"
             }
         ],
-        "CurrentFile": "13-TD-vypocty.tex",
+        "CurrentFile": "00-handouts-C1040.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 0,
+                "Col": 19,
                 "EditorGroup": 0,
                 "FileName": "00-handouts-C1040.tex",
-                "FirstLine": 0,
+                "FirstLine": 7,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 51
             },
             {
-                "Col": 0,
+                "Col": 37,
                 "EditorGroup": 0,
                 "FileName": "13-TD-vypocty.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 9
             },
             {
                 "Col": 0,
@@ -38,6 +38,14 @@
                 "FirstLine": 0,
                 "FoldedLines": "",
                 "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "20-krystaly.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 2
             }
         ],
         "MasterFile": "",
