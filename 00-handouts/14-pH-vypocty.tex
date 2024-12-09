@@ -1,5 +1,36 @@
 \section{pH}
 
+\subsection{Aktivita}
+
+Popisuje reálné chování roztoku. Na rozdíl od ideálního roztoku, se v reálném roztoku částice navzájem ovlivňují. Aktivita jakékoliv čisté látky v kondenzovaném stavu (kapalina nebo pevná látka) je jednotková. Aktivita plynu závisí na jeho parciálním tlaku, obvykle se označuje jako \textbf{fugacita}.
+
+$\mu_i = \mu_i^0 + \textrm{RT} \ln a_i$\\
+$\mu_i$ - chemický potenciál, $\mu_i^0$ - standardní chemický potenciál
+
+Ativitu lze vyjádřit jako součin molární koncentrace a aktivitního koeficientu:\\
+a $ = \gamma $c
+
+Aktivitní koeficient je úměrný náboji iontů v roztoku a iontové síle roztoku
+
+\subsubsection{Iontová síla roztoku}
+$\log \gamma = -0,509\textrm{z}^2\sqrt{\textrm{I}}$\\
+I - iontová síla roztoku - popisuje množství iontů v roztoku\\
+$I = \frac{1}{2}\sum\limits_{i=0}^n \textrm{c}_i \textrm{z}^2_i$\\
+c$_i$ -- molalita; z$_i$ -- náboj; 0,509 -- konstanta pro vodné roztoky při 25~$^\circ$C
+
+\textbf{Střední aktivitní koeficienty ve vodných roztocích při 25 $^\circ$C}\footnote{VOHLÍDAL, Jiří. Chemické tabulky. Praha: SNTL, 1982.}\\
+\begin{tabular}{|l||r@{,}l|r@{,}l|r@{,}l|r@{,}l|}
+\hline
+$c_m [mol.kg^{-1}]$ & 0 & 1 & 1 & 0 & 4 & 0 & 10 & 0 \\\hline
+HCl & 0 & 796 & 0 & 809 & 1 & 762 & 10 & 44 \\\hline
+NaOH & 0 & 766 & 0 & 678 & 0 & 903 & 3 & 52 \\\hline
+KOH & 0 & 798 & 0 & 756 & 1 & 352 & 6 & 22 \\\hline
+\ce{H_2SO_4} & 0 & 265 & 0 & 130 & 0 & 171 & 0 & 553 \\\hline
+\ce{AgNO_3} & 0 & 734 & 0 & 429 & 0 & 210 & \multicolumn{2}{|c|}{} \\\hline
+\ce{Ca(NO_3)_2} & 0 & 48 & 0 & 35 & 0 & 42 & \multicolumn{2}{|c|}{} \\\hline
+\end{tabular}
+
+
 \subsection{Vzorce}
 
 \begin{tabular}{ll}
@@ -37,22 +68,37 @@ pK$_w$ = pH + pOH = 14
 \textit{Vypočítej pH kyseliny chlorovodíkové o koncentraci 0,3 M.}
 
 \ce{HCl -> H+ + Cl-}
-
-pH = -log c = -log 0,3 = 0,52
-
+pH = -log c = -log 0,3 = 0,52\\
+\hrule
 \textit{Vypočítej pH kyseliny sírové o koncentraci 0,3 M.}
-
-\ce{H2SO4 -> 2 H+ + SO$_4^{2-}$}
-
+\hrule
+\ce{H2SO4 -> 2 H+ + SO$_4^{2-}$}\\
 pH = -log c = -log (2\times 0,3) = 0,22
 
 \textit{Vypočítej pH hydroxidu sodného o koncentraci 0,3 M.}
 
 \ce{NaOH -> Na+ + OH-}
 
-pOH = -log c = -log 0,3 = 0,52
-
+pOH = -log c = -log 0,3 = 0,52\\
 pH = 14 - pH = 14 - 0,52 = 13,48
+\hrule
+\textit{Vypočítej pH kyseliny chlorovodíkové o koncentraci 1$\times$10$^{-8}$ M.}
+
+Chybný výpočet: pH = -log 1.10$^{-8}$ = 8
+
+Je nutné uvažovat iontový součin vody, pro správný výpočet musíme uvažovat tři podmínky:
+
+\begin{enumerate}
+	\item \ce{[Cl^-]} = c
+	\item \ce{[H+]} = [\ce{OH-}] + [\ce{Cl-}]
+	\item K$_w$ = \ce{[H+]}[\ce{OH-}]
+\end{enumerate}
+
+Tím získáme kvadratickou rovnici:\\
+$x^2 - cx - K_w = 0\\
+\textrm{c} = 1,051\times10^{-7}\\
+\textrm{pH} = \textbf{6,978}$
+
 
 \newpage
 
@@ -95,14 +141,66 @@ pH = -log 0,001844 = 2,734
 
 pH = $\frac{1}{2}\textrm{p}K_A-\frac{1}{2}\log$ c = $\frac{1}{2}\times4,76 -\frac{1}{2}\log$ 0,2 = 2,73
 
+\newpage
+
+\textit{Jaké je pH 0,25 M roztoku amoniaku}
+
+\ce{NH3 + H2O -> NH$^+_4$ + OH-}
+
+pK$_B$ = 4,76\\
+K$_B$ = 1,74$\times$10$^{-5}$
+
+K$_B$ = $\frac{[\ce{NH$^+_4$}][\ce{OH-}]}{[\ce{NH3}]}\ =\ \frac{\ce{x^2}}{\ce{c}}\\
+\textrm{x = }\sqrt{\textrm{K}_B\times c}\ =\ \sqrt{1,74\times10^{-5}\times 0,25}\ =\ 2,09\times10^{-3}$\\
+pOH = -log $2,09\times10^{-3}$ = 2,68\\
+pH = 14 - 2,68 = \textbf{11,32}
+
+\textbf{Vzorec:}\\
+pH = $14\ +\ \frac{1}{2}\log\textrm{c} - \frac{1}{2}\textrm{p}K_B$ = 14 + 0,5 log 0,25 - 0,5$\times$4,76 = 11,32
+
 \subsection{Soli}
+
 \subsubsection{Sůl silné kyseliny a silné zásady}
 
 \ce{NaCl -> Na+ + Cl-}
 
 Při disociaci nedochází ke vzniku \ce{H+}, ani \ce{OH-} iontů, hodnota pH tedy není ovlivněna.
 
+\subsubsection{Sůl silné kyseliny a slabé zásady}
+\ce{NH4NO3 + H2O -> NH4^+ + NO3^- + NH3 + H^+}\\
+$\textrm{pH} = 7 - \frac{1}{2}(\textrm{pK}_b + \log c)$ \\
+
+\subsubsection{Sůl slabé kyseliny a silné zásady}
+\ce{NaF + H2O -> Na^+ + F^- + HF + OH^-}\\
+$\textrm{pH} = 7 + \frac{1}{2}(\textrm{pK}_a + \log c)$ \\
+
+\subsubsection{Sůl slabé kyseliny a slabé zásady}
+\ce{NH4F + H2O -> NH4^+ + F^- + NH3 + H^+ + HF + OH^-}\\
+$\textrm{pH} = 7 + \frac{1}{2}(\textrm{pK}_a - \textrm{pK}_b)$\\
+$\textrm{pK}_a (\ce{HF}) = 3,17$\\
+$\textrm{pK}_b (\ce{NH3}) = 4,75$\\
+$\textrm{pH} = 7 + \frac{1}{2}(3,17 - 4,75) = 6,21$\\
+
+\newpage
 \subsection{Pufry}
+
+Jde o směs slabé kyseliny a její soli nebo slabé zásady a její soli. Příkladem je např. acetátový pufr - směs kyseliny octové a octanu sodného.
+
+Rovnováhy v pufru lze popsat rovnicemi:\\
+\ce{CH3COOH + H2O <-> CH3COO^- + H3O^+}\\
+\ce{CH3COONa + H2O <-> CH3COOH + Na^+ + OH^-}\\
+Přídavkem kyseliny vzniknou molekuly kyseliny octové, přídavkem zásady ionty octanu. pH roztoku se nezmění.\\
+$\textrm{pH} = \textrm{pK}_a + \log \frac{[A^-]}{[HA]}$\\
+$\textrm{pH} = 14 - \textrm{pK}_b + \log \frac{[B]}{[BH^+]}$
+
+
+\begin{tabular}{|c|c|c|}
+	\hline
+	\textbf{Pufr} & \textbf{Složení} & \textbf{Rozsah pH} \\\hline
+	Acetátový & \ce{CH3COOH}/\ce{CH3COONa} & 3,8 - 5,8 \\\hline
+	Fosfátový & \ce{NaH2PO4}/\ce{Na2HPO4} & 6,2 - 8,2 \\\hline
+	Borátový & \ce{H3BO3}/\ce{Na2B4O7} & 8,25 - 10,25 \\\hline
+\end{tabular}
 
 
 \clearpage

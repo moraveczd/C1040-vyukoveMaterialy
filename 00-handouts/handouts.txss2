@@ -16,28 +16,28 @@
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 19,
+                "Col": 23,
                 "EditorGroup": 0,
                 "FileName": "00-handouts-C1040.tex",
-                "FirstLine": 7,
+                "FirstLine": 4,
                 "FoldedLines": "",
-                "Line": 51
+                "Line": 44
             },
             {
-                "Col": 37,
+                "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "13-TD-vypocty.tex",
-                "FirstLine": 0,
+                "FirstLine": 23,
                 "FoldedLines": "",
-                "Line": 9
+                "Line": 27
             },
             {
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "14-pH-vypocty.tex",
-                "FirstLine": 0,
+                "FirstLine": 60,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 65
             },
             {
                 "Col": 0,
@@ -45,7 +45,7 @@
                 "FileName": "20-krystaly.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 2
+                "Line": 29
             }
         ],
         "MasterFile": "",
