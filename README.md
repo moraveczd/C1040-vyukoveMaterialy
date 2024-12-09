@@ -2,3 +2,7 @@
 
 * Výukové materiály
 * [Oficiální web](https://is.muni.cz/www/moravec/c1040/)
+
+# Handouts
+
+* Poznámky a taháky do výuky
