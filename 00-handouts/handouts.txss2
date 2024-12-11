@@ -12,16 +12,24 @@
                 "text": "04-Kovy.tex\n\\item Ocel je slitina želaza s uhlíkem a dalšími prvky, která obsahuje méně než 2,14~\\%"
             }
         ],
-        "CurrentFile": "00-handouts-C1040.tex",
+        "CurrentFile": "17-elektrochemie.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 23,
+                "Col": 25,
                 "EditorGroup": 0,
                 "FileName": "00-handouts-C1040.tex",
-                "FirstLine": 4,
+                "FirstLine": 21,
                 "FoldedLines": "",
-                "Line": 44
+                "Line": 62
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "03-platne-cislice.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 1
             },
             {
                 "Col": 0,
@@ -34,7 +42,7 @@
             {
                 "Col": 0,
                 "EditorGroup": 0,
-                "FileName": "14-pH-vypocty.tex",
+                "FileName": "15-pH-vypocty.tex",
                 "FirstLine": 60,
                 "FoldedLines": "",
                 "Line": 65
@@ -42,13 +50,21 @@
             {
                 "Col": 0,
                 "EditorGroup": 0,
-                "FileName": "20-krystaly.tex",
+                "FileName": "17-elektrochemie.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 29
+                "Line": 2
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "12-krystaly.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
             }
         ],
-        "MasterFile": "",
+        "MasterFile": "00-handouts-C1040.tex",
         "VerticalSplit": false
     }
 }
