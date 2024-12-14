@@ -2,9 +2,16 @@
 
 Elektrochemie je obor chemie, který zkoumá procesy probíhající na rozhraní elektrod a elektrolytu.
 
+\begin{itemize}
+	\item \textit{Elektroda} -- kov ponořený do elektrolytu
+	\item \textit{Elektrolyt} -- roztok nebo tavenina schopná vést elektrický proud
+	\item \textit{Anoda} -- elektroda na které probíhá oxidace
+	\item \textit{Katoda} -- elektroda na které probíhá redukce
+\end{itemize}
+
 \subsection{Beketovova řada kovů}
 
-Pojmenována po ruském chemikovi N. N. Beketovovy. Kovy jsou seřazeny podle hodnoty standardního elektrodového potenciálu.
+Pojmenována po ruském chemikovi \textit{N. N. Beketovovy}. Kovy jsou seřazeny podle hodnoty standardního elektrodového potenciálu.
 
 \begin{tabular}{|*{9}{c|}}
 	\hline
@@ -20,13 +27,67 @@ Neušlechtilé kovy při reakci s minerálními kyselinami uvolňují vodík:
 
 \ce{Zn + H2SO4 -> ZnSO4 + H2}
 
-Ušlechtilé kovy nedokáží vodík vytěsnit, rozpouštějí se jen v oxidačních kyselinách:
+Ušlechtilé kovy nedokáží vodík vytěsnit, rozpouštějí se jen v oxidujících kyselinách:
 
 \ce{3 Cu + 8 HNO3 -> 3 Cu(NO3)2 + 2 NO + 4 H2O}
+
+Kovy s nižším elektrodovým potenciálem dokáží vyredukovat kovy s vyšším elektrodovým potenciálem z jejich solí:
+
+\ce{Fe + CuSO4 -> FeSO4 + Cu}
+
+\ce{Cu + FeSO4 -> nereaguje}
+
+\newpage
+
+\subsection{Elektrodové potenciály}
 
 \textbf{Standardní vodíková elektroda} -- platinová elektroda, pokrytá platinovou černí, sycená plynným vodíkem pod tlakem 101,325 kPa za teploty 0 $^\circ$C, ponořená do roztoku s jednotkovou aktivitou vodíkových iontů.
 
 \ce{\nicefrac{1}{2} H2 <=> H+ + e-}
+
+Její potenciál je za všech teplot nulový. Absolutní hodnota potebciálu se odhaduje na 4,44 V.\footnote{\href{https://publications.iupac.org/pac/1986/pdf/5807x0955.pdf}{THE ABSOLUTE ELECTRODE POTENTIAL: AN EXPLANATORY NOTE}}
+
+\textit{Zdrojem hodnot potenciálů je wikipedie.}\footnote{\href{https://en.wikipedia.org/wiki/Standard_electrode_potential_(data_page)}{Standard electrode potential (data page)
+}}
+
+\begin{multicols}{2}
+	\textbf{Neušlechtilé kovy}
+	
+	\begin{tabular}{r@{/}lr@{,}l}
+	\ce{Li+} & Li	& $-$3 & 04 \\
+	\ce{Cs+} & Cs	& $-$3 & 02 \\
+	\ce{K+} & K	& $-$2 & 93 \\
+	\ce{Ba^{2+}} & Ba	& $-$2 & 91 \\
+	\ce{Na+} & Na	& $-$2 & 71 \\
+	\ce{Mg^{2+}} & Mg & $-$2 & 37 \\
+	\ce{Ce^{3+}} & Ce & $-$2 & 34 \\
+	\ce{Al^{3+}} & Al & $-$1 & 66 \\
+	\ce{Zr^{4+}} & Zr & $-$1 & 45 \\
+	\ce{Ti^{3+}} & Ti & $-$1 & 37 \\
+	\ce{Ta^{3+}} & Ta & $-$0 & 60 \\
+	\ce{Fe^{2+}} & Fe & $-$0 & 44 \\
+	\ce{Sn^{2+}} & Sn & $-$0 & 13 \\
+	\ce{Fe^{3+}} & Fe & $-$0 & 04 \\
+	\end{tabular}
+	
+	\columnbreak
+	\textbf{Ušlechtilé kovy}
+	
+	\begin{tabular}{r@{/}lr@{,}l}
+		\ce{Sn^{4+}} & \ce{Sn^{2+}}	& 0 & 15 \\
+		\ce{Bi^{3+}} & Bi	& 0 & 31 \\
+		\ce{Cu^{2+}} & Cu	& 0 & 34 \\
+		\ce{Cu^{+}} & Cu	& 0 & 52 \\
+		\ce{Tl^{3+}} & Tl & 0 & 74 \\
+		\ce{Ag+} & Ag	& 0 & 80 \\
+		\ce{Hg^{2+}} & Hg & 0 & 85 \\
+		\ce{Pd^{2+}} & Pd & 0 & 92 \\
+		\ce{Pt^{2+}} & Pt & 1 & 18 \\
+		\ce{Au^{3+}} & Au & 1 & 52 \\
+		\ce{Au^{+}} & Au & 1 & 83 \\
+		\ce{Ag^{2+}} & \ce{Ag+} & 1 & 98 \\
+	\end{tabular}
+\end{multicols}
 
 \newpage
 
@@ -48,4 +109,21 @@ m = A . I . t
 \textbf{2. Faradayův zákon}\\
 Látková množství vyloučená stejným nábojem jsou pro všechny látky chemicky ekvivalentní, neboli elektrochemický ekvivalent A závisí přímo úměrně na molární hmotnosti látky.
 
-$A = \frac{M}{F . z}$
+$A = \frac{M}{F . z}$ \\
+
+\hrule
+\zadani{Kolik mědi se získáme elektrolýzou roztoku modré skalice proudem 1,2~A za dobu dvou hodin?}
+
+\ce{Cu^{2+} + 2 e- -> Cu}
+
+K redukci měďnatého kationtu jsou potřeba dva elektrony. Elektrochemický ekvivalent vypočítáme pomoc9 2. Faradayova zákona:
+
+A = $\frac{\textrm{M}}{\textrm{F}\times\textrm{z}} = \frac{63,55}{96 485 \times 2} = 3,29\times10^{-4} \textrm{g.C}^{-1}$
+
+Nyní můžeme vypočítat i hmotnost vyloučené mědi, čas musíme dosadit v sekundách:
+
+m = A . I . t = 3,29.10$^{-4}$ . 1,2 . 7200 = 2,84 g
+
+\odpoved{Elektrolýzou získáme 2,84 g mědi.}
+
+\hrule
