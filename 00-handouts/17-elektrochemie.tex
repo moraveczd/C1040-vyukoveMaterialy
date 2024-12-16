@@ -50,15 +50,15 @@ Její potenciál je za všech teplot nulový. Absolutní hodnota potebciálu se 
 \textit{Zdrojem hodnot potenciálů je wikipedie.}\footnote{\href{https://en.wikipedia.org/wiki/Standard_electrode_potential_(data_page)}{Standard electrode potential (data page)
 }}
 
-\begin{multicols}{2}
+\begin{multicols}{3}
 	\textbf{Neušlechtilé kovy}
-	
+
 	\begin{tabular}{r@{/}lr@{,}l}
-	\ce{Li+} & Li	& $-$3 & 04 \\
-	\ce{Cs+} & Cs	& $-$3 & 02 \\
+	\ce{Li+} & Li & $-$3 & 04 \\
+	\ce{Cs+} & Cs & $-$3 & 02 \\
 	\ce{K+} & K	& $-$2 & 93 \\
-	\ce{Ba^{2+}} & Ba	& $-$2 & 91 \\
-	\ce{Na+} & Na	& $-$2 & 71 \\
+	\ce{Ba^{2+}} & Ba & $-$2 & 91 \\
+	\ce{Na+} & Na & $-$2 & 71 \\
 	\ce{Mg^{2+}} & Mg & $-$2 & 37 \\
 	\ce{Ce^{3+}} & Ce & $-$2 & 34 \\
 	\ce{Al^{3+}} & Al & $-$1 & 66 \\
@@ -69,33 +69,62 @@ Její potenciál je za všech teplot nulový. Absolutní hodnota potebciálu se 
 	\ce{Sn^{2+}} & Sn & $-$0 & 13 \\
 	\ce{Fe^{3+}} & Fe & $-$0 & 04 \\
 	\end{tabular}
-	
+
 	\columnbreak
 	\textbf{Ušlechtilé kovy}
-	
+
 	\begin{tabular}{r@{/}lr@{,}l}
-		\ce{Sn^{4+}} & \ce{Sn^{2+}}	& 0 & 15 \\
-		\ce{Bi^{3+}} & Bi	& 0 & 31 \\
-		\ce{Cu^{2+}} & Cu	& 0 & 34 \\
-		\ce{Cu^{+}} & Cu	& 0 & 52 \\
+		\ce{Bi^{3+}} & Bi & 0 & 31 \\
+		\ce{Cu^{2+}} & Cu & 0 & 34 \\
+		\ce{Cu^{+}} & Cu & 0 & 52 \\
 		\ce{Tl^{3+}} & Tl & 0 & 74 \\
-		\ce{Ag+} & Ag	& 0 & 80 \\
+		\ce{Ag+} & Ag & 0 & 80 \\
 		\ce{Hg^{2+}} & Hg & 0 & 85 \\
 		\ce{Pd^{2+}} & Pd & 0 & 92 \\
 		\ce{Pt^{2+}} & Pt & 1 & 18 \\
 		\ce{Au^{3+}} & Au & 1 & 52 \\
 		\ce{Au^{+}} & Au & 1 & 83 \\
-		\ce{Ag^{2+}} & \ce{Ag+} & 1 & 98 \\
 	\end{tabular}
+
+	\columnbreak
+	\textbf{Redoxní systémy}
+
+	\begin{tabular}{r@{/}lr@{,}l}
+		\ce{Ag^{2+}} & \ce{Ag+} & 1 & 98 \\
+		\ce{MnO2} & \ce{Mn^{2+}} & 0 & 95 \\
+		\ce{Fe^{3+}} & \ce{Fe^{2+}}	& 0 & 771 \\
+		\ce{Sn^{4+}} & \ce{Sn^{2+}}	& 0 & 15 \\
+		\ce{Ti^{3+}} & \ce{Ti^{2+}}	& $-$0 & 369 \\
+		\ce{Cr^{3+}} & \ce{Cr^{2+}}	& $-$0 & 408 \\
+	\end{tabular}
+
 \end{multicols}
 
 \newpage
 
 \subsection{Elektrody a elektrodový potenciál}
 
-$E = E^0 - \frac{RT}{zF}\ln a$
+$E = E^0 + \frac{RT}{zF}\ln a = E^0 + \frac{0,0592}{z}\log a$
 
-$E = E^0 - \frac{RT}{zF}\ln \frac{a_{red}}{a_{ox}}$
+$E = E^0 + \frac{RT}{zF}\ln \frac{a_{red}}{a_{ox}} = E^0 + \frac{0,0592}{z}\ln \frac{a_{red}}{a_{ox}}$\\
+
+\hrule
+
+\zadani{Vypočítejte potenciál železné elektrody ponořené do roztoku železnatých iontů o koncentraci 0,85 M.}
+
+$E^0 (Fe^{2+}/Fe) = -0,44$\\
+
+$E = E^0 + \frac{0,0592}{z}\log c = -0,44 + \frac{0,0592}{2}\log 0,85 = -0,442 V$
+
+\odpoved{Potenciál elektrody je $-$0,442 V}\\
+
+$E = E^0 + \frac{0,0592}{z}\ln \frac{a_{red}}{a_{ox}} = $\\
+
+\hrule
+
+\zadani{Vypočítejte potenciál platinového drátu ponořeného do roztoku o [Fe$^{2+}$] = 0,05 M a [Fe$^{3+}$] = 0,02 M}
+
+\odpoved{Potenciál elektrody je $-$0,442 V}\\
 
 \subsection{Galvanický článek}
 
