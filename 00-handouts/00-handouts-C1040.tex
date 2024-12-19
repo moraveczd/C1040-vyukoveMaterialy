@@ -1,5 +1,6 @@
-\documentclass[12pt,a4paper,oneside]{article}
+\documentclass[17pt,a4paper,twoside]{extarticle}
 
+\usepackage{geometry}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
 \usepackage{adjustbox}
@@ -12,9 +13,27 @@
 \usepackage{chemformula}
 \usepackage{elements}
 \usepackage{hyperref}
+\usepackage{lastpage}
 
 \usepackage{parskip}
 \usepackage{multicol}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[LE]{\textbf{Poznámky k seminářům z obecné chemie}}
+\fancyhead[RO]{\textbf{https://is.muni.cz/www/moravec/c1040/}}
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage / \pageref{LastPage}}
+\lfoot{\leftmark}
+
+\makeatletter
+\renewcommand{\sectionmark}[1]{%
+	\markboth{\ifnum \c@secnumdepth>\z@
+		\thesection\hskip 1em\relax
+		\fi #1}{}}
+\makeatother
 
 %dělení slov
 \usepackage{ragged2e}
