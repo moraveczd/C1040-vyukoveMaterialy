@@ -31,24 +31,26 @@ $K = \frac{[\ce{Ag+}][\ce{Cl-}]}{[\textrm{AgCl}]}$
 
 Z rovnovážné konstanty pak odvodíme \textit{součin rozpustnosti}:
 
-$K_S = K.[\textrm{AgCl}] = [\ce{Ag+}][\ce{Cl-}]\\
+$K_S = [\ce{Ag+}][\ce{Cl-}]\\
 pK_S = -\log K_S$
 
 Hodnoty součinů rozpustnosti najdeme v chemických tabulkách.
 
 \begin{center}
-\begin{tabular}{|l|r@{,}l||l|r@{,}l|}
+\begin{tabular}{|l|r@{,}l|r@{,}l||l|r@{,}l|r@{,}l|}
 	\hline
-	\textbf{Látka} & \multicolumn{2}{|c||}{\textbf{pK$_S$}} & \textbf{Látka} & \multicolumn{2}{|c|}{\textbf{pK$_S$}} \\\hline
-	AgBr & 12 & 31 & CdS & 26 & 10 \\\hline
-	AgCl & 9 & 75 & \ce{CoCO3} & 12 & 84 \\\hline
-	AgI & 16 & 08 & CuBr & 8 & 28 \\\hline
-	AgSCN & 11 & 97 & CuS & 35 & 20 \\\hline
-	\ce{Ag2CrO4} & 11 & 61 & \ce{Ni(OH)2} & 15 & 50 \\\hline
-	\ce{Ag2S} & 49 & 20 & PbS & 26 & 60 \\\hline
-	\ce{Ag2SO4} & 4 & 77 & \ce{Sn(OH)4} & 56 & 00 \\\hline
-	\ce{BaCO3} & 8 & 29 & \ce{Tl2S} & 20 & 30 \\\hline
-	\ce{BaCrO4} & 9 & 93 & \ce{Zn3(AsO4)2} & 27 & 89 \\\hline
+	\textbf{Látka} & \multicolumn{2}{|c|}{\textbf{pK$_S$}} &
+	\multicolumn{2}{|c||}{\textbf{K$_S$}} &\textbf{Látka} & \multicolumn{2}{|c|}{\textbf{pK$_S$}} &
+	\multicolumn{2}{|c|}{\textbf{K$_S$}} \\\hline
+	AgBr & 12 & 31 & 4 & 90.10$^{-13}$ & CdS & 26 & 10 & 7 & 94.10$^{-27}$ \\\hline
+	AgCl & 9 & 75 & 1 & 78.10$^{-10}$ & \ce{CoCO3} & 12 & 84 & 1 & 45.10$^{-13}$ \\\hline
+	AgI & 16 & 08 & 8 & 32.10$^{-17}$ & CuBr & 8 & 28 & 5 & 25.10$^{-9}$ \\\hline
+	AgSCN & 11 & 97 & 1 & 07.10$^{-12}$ & CuS & 35 & 20 & 6 & 31.10$^{-36}$ \\\hline
+	\ce{Ag2CrO4} & 11 & 61 & 2 & 45.10$^{-12}$ & \ce{Ni(OH)2} & 15 & 50 & 3 & 16.10$^{-16}$  \\\hline
+	\ce{Ag2S} & 49 & 20 & 6 & 31.10$^{-50}$ & PbS & 26 & 60 & 2 & 51.10$^{-27}$ \\\hline
+	\ce{Ag2SO4} & 4 & 77 & 1 & 70.10$^{-5}$ & \ce{Sn(OH)4} & 56 & 00 & 1 & 00.10$^{-56}$ \\\hline
+	\ce{BaCO3} & 8 & 29 & 5 & 13.10$^{-9}$ & \ce{Tl2S} & 20 & 30 & 5 & 01.10$^{-21}$ \\\hline
+	\ce{BaCrO4} & 9 & 93 & 1 & 17.10$^{-10}$ & \ce{Zn3(AsO4)2} & 27 & 89 & 1 & 29.10$^{-28}$  \\\hline
 \end{tabular}
 \end{center}
 
@@ -67,5 +69,21 @@ K_S = [\ce{Ag+}][\ce{Cl-}] = x^2\\
 x = \sqrt{K_S} = \sqrt{1,78\times 10^{-10}} = 1,33\times 10^{-5}$ M
 
 \odpoved{Koncentrace stříbrného a chloridového iontu jsou 1,33$\times$10$^{-5}$ mol.dm$^{-3}$}
+
+\zadani{Vypočítejte koncentraci iontů v nasyceném roztoku \ce{Sn(OH)4}}
+
+Hydroxid cíničitý v roztoku disociuje podle rovnice:
+
+\ce{Sn(OH)4 <=> Sn^{4+} + 4 OH-}
+
+Součin rozpustnosti vypočítáme:
+
+$K_S = 10^{-56,00} = 1 \times 10^{-56}\\
+K_S = [\ce{Sn^{4+}}][\ce{OH-}]^4 = x \times (4x)^4 = 256x^4\\
+x = \sqrt[4]{\frac{K_S}{256}} = \sqrt[4]{\frac{1 \times 10^{-56}}{256}} = 2,5\times 10^{-15}$ M = c(\ce{Sn^{4+}})
+
+c(\ce{OH^{-}}) = 4 $\times\ 2,5\times10^{-15}$ = 1$\times10^{-14}$ M
+
+\odpoved{Koncentrace cíničitých iontů je 2,5$\times10^{-15}$ mol.dm$^{-3}$ a hydroxidových iontů je 1$\times$10$^{-14}$ mol.dm$^{-3}$.}
 
 \clearpage
