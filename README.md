@@ -9,7 +9,7 @@
 
 ## Struktura
 
-1. Názvosloví (bez koordinačních sloučenin)
+1. Názvosloví
 2. Základní chemické zákony
 3. Avogadrova konstanta, látkové množství, výpočet složení ze vzorce a naopak
 4. Platné číslice
