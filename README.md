@@ -18,7 +18,7 @@
 7. Atomové jádro a elektronový obal, periodicita vlastností
 8. VSEPR
 9. Chemická vazba, diagramy MO
-10. Koncentrace
+10. Koncentrace, rozpustnost, součin rozpustnosti
 11. Koordinační sloučeniny, ligandové pole
 12. NMR, izomerie
 13. Ideální plyn
