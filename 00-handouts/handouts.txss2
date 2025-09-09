@@ -19,17 +19,25 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "00-handouts-C1040.tex",
-                "FirstLine": 49,
+                "FirstLine": 41,
                 "FoldedLines": "",
-                "Line": 93
+                "Line": 78
+            },
+            {
+                "Col": 42,
+                "EditorGroup": 0,
+                "FileName": "00-uvod.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 9
             },
             {
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "01-nazvoslovi.tex",
-                "FirstLine": 0,
+                "FirstLine": 98,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 145
             },
             {
                 "Col": 0,
@@ -59,9 +67,9 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "15-pH-vypocty.tex",
-                "FirstLine": 0,
+                "FirstLine": 44,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 84
             },
             {
                 "Col": 0,
