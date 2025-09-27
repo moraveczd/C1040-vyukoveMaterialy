@@ -12,14 +12,14 @@
                 "text": "04-Kovy.tex\n\\item Ocel je slitina želaza s uhlíkem a dalšími prvky, která obsahuje méně než 2,14~\\%"
             }
         ],
-        "CurrentFile": "030-zakony.tex",
+        "CurrentFile": "000-handouts-C1040.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 19,
+                "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "000-handouts-C1040.tex",
-                "FirstLine": 50,
+                "FirstLine": 48,
                 "FoldedLines": "",
                 "Line": 81
             },
@@ -35,9 +35,9 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "010-nazvoslovi.tex",
-                "FirstLine": 98,
+                "FirstLine": 106,
                 "FoldedLines": "",
-                "Line": 145
+                "Line": 152
             },
             {
                 "Col": 0,
@@ -45,15 +45,23 @@
                 "FileName": "020-platne-cislice.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 1
             },
             {
-                "Col": 0,
+                "Col": 49,
                 "EditorGroup": 0,
                 "FileName": "030-zakony.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 2
+                "Line": 23
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "040-rovnice.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 3
             },
             {
                 "Col": 0,
@@ -61,15 +69,15 @@
                 "FileName": "130-krystaly.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 29
             },
             {
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "140-TD-vypocty.tex",
-                "FirstLine": 0,
+                "FirstLine": 22,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 27
             },
             {
                 "Col": 0,
