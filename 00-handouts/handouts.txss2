@@ -12,16 +12,16 @@
                 "text": "04-Kovy.tex\n\\item Ocel je slitina želaza s uhlíkem a dalšími prvky, která obsahuje méně než 2,14~\\%"
             }
         ],
-        "CurrentFile": "000-handouts-C1040.tex",
+        "CurrentFile": "050-jadro-obal.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 0,
+                "Col": 11,
                 "EditorGroup": 0,
                 "FileName": "000-handouts-C1040.tex",
-                "FirstLine": 48,
+                "FirstLine": 53,
                 "FoldedLines": "",
-                "Line": 81
+                "Line": 87
             },
             {
                 "Col": 0,
@@ -35,9 +35,9 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "010-nazvoslovi.tex",
-                "FirstLine": 106,
+                "FirstLine": 67,
                 "FoldedLines": "",
-                "Line": 152
+                "Line": 72
             },
             {
                 "Col": 0,
@@ -48,20 +48,28 @@
                 "Line": 1
             },
             {
-                "Col": 49,
+                "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "030-zakony.tex",
-                "FirstLine": 0,
+                "FirstLine": 82,
                 "FoldedLines": "",
-                "Line": 23
+                "Line": 119
             },
             {
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "040-rovnice.tex",
+                "FirstLine": 11,
+                "FoldedLines": "",
+                "Line": 24
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "050-jadro-obal.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 3
+                "Line": 5
             },
             {
                 "Col": 0,
@@ -75,7 +83,7 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "140-TD-vypocty.tex",
-                "FirstLine": 22,
+                "FirstLine": 21,
                 "FoldedLines": "",
                 "Line": 27
             },
@@ -83,17 +91,17 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "160-pH-vypocty.tex",
-                "FirstLine": 44,
+                "FirstLine": 154,
                 "FoldedLines": "",
-                "Line": 84
+                "Line": 196
             },
             {
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "170-soucin-rozpustnosti.tex",
-                "FirstLine": 0,
+                "FirstLine": 43,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 86
             },
             {
                 "Col": 0,
