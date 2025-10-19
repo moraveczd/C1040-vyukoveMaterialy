@@ -1,0 +1,189 @@
+\section{VSEPR}
+
+\subsection{Formální náboj}
+
+	\begin{itemize}
+		\item Rozdíl mezi počtem valenčních elektronů ve volném atomu a valenčních elektronů ve vázaném atomu.
+		\item Záporný náboj je umístěn na nejelektronegativnějším atomu.
+		\item Součet formálních nábojů všech atomů v molekule je roven jejímu náboji.
+		\item \ce{H3O^+}: H: 0; O: 6-5=+1
+		\item \ce{CH3^+}: H: 0; C: 4-3=+1
+	\end{itemize}
+	\begin{center}
+		\adjincludegraphics[width=80mm]{img/formalni_naboj.png}
+	\end{center}
+
+\subsection{Rezonanční struktury}
+\begin{itemize}
+	\item Popisují polohu elektronů v molekulách.
+	\item Vyjadřují jednotlivé limitní stavy.
+\end{itemize}
+\begin{center}
+	\schemestart
+	\rotatebox{30}{\chemfig{*6(=-=-=-)}}\arrow{<=>}\rotatebox{30}{\chemfig{*6(=-=-=-)}}
+	\schemestop
+\end{center}
+\scalebox{0.7}{
+	\schemestart
+	\chemfig{S(-[:0]O^{\scriptstyle -})(=[:90]O)(-[:180]^{\scriptstyle -}O)(=[:270]O)}\arrow{<=>}
+	\chemfig{S(-[:0]O^{\scriptstyle -})(=[:90]O)(=[:180]O)(-[:270]\chembelow{O}{\scriptstyle -})}\arrow{<=>}
+	\chemfig{S(=[:0]O)(-[:90]\chemabove{O}{\scriptstyle -})(=[:180]O)(-[:270]\chembelow{O}{\scriptstyle -})}\arrow{<=>}
+	\chemfig{S(=[:0]O)(=[:90]O)(-[:180]^{\scriptstyle -}O)(-[:270]\chembelow{O}{\scriptstyle -})}
+	\schemestop
+}
+
+\subsection{Molekulové orbitaly}
+\begin{itemize}
+	\item Teorie LCAO-MO - Linear Combination of Atomic Orbitals - Molecular Orbital.
+	\item Molekulové orbitaly vznikají lineární kombinací atomových orbitalů.
+	\item Kombinací dvou AO vznikají dva MO - vazebný a protivazebný. Protivazebné orbitaly se označují hvězdičkou, např. $\sigma^*$.
+	\item Aby byl překryv úspěšný musí mít vlnové funkce orbitalů v místě překryvu stejná znaménka.
+	\item Protivazebný orbital má o jednu nodální plochu více než vazebný a pokud je obsazen elektronovým párem, snižuje řád vazby o jedna. Obsazený vazebný orbital naopak řád vazby zvyšuje.
+	\item Vazba $\sigma$ - vzniká osovým překryvem orbitalů.
+	\item Vazba $\pi$ - vzniká bočným překryvem orbitalů, je přítomna v násobných vazbách.
+	\item Vazba $\delta$ - vzniká překryvem všech čtyř laloků d-orbitalu, je přítomna ve čtverné vazbě např. v \href{http://pubs.acs.org/doi/abs/10.1021/ic50025a015}{\ce{[Re2Cl8]^{2-}}}.
+\end{itemize}
+
+\subsection{Řád vazby}
+\begin{itemize}
+	\item Řád vazby popisuje počet elektronových párů, které tvoří vazbu mezi atomy.
+	\item Lze jej odvodit z Lewisovského vzorce molekuly nebo z diagramu MO.
+\end{itemize}
+
+\begin{center}
+	\chemfig{H-[:52.24]\charge{45=\:,135=\:}{O}-[::-104.48]H}
+	\raisebox{3.5ex}{\chemfig{\charge{90=\:,270=\:}{O}=C=\charge{90=\:,270=\:}{O}}}
+\end{center}
+
+\begin{itemize}
+	\item Řád vazby lze spočítat z počtu elektronů ve vazebných a protivazebných orbitalech.
+	\item $RV = \frac{vazebne\ elektrony - protivazebne\ elektrony}{2}$
+	
+	\item Neobsazené molekulové orbitaly neovlivňují ani řád vazby, ani energii systému.
+\end{itemize}
+
+\begin{itemize}
+	\item Nepřechodné prvky se snaží vytvářet chemické vazby tak, aby měly ve valenční slupce osm elektronů, čímž dosáhnou na elektronovou konfiguraci vzácného plynu.
+	\item Elektrony, které atomy sdílí v kovalentních vazbách se započítávají pro každý atom zvlášť. Např. v molekule \ce{CO2} jsou kyslíky obklopeny čtyřmi nevazebnými elektrony a~čtyři vazebnými, centrální uhlík je pak obklopen celkem osmi elektrony ze čtyř kovalentních vazeb.
+\end{itemize}
+
+\begin{center}
+	\chemfig{{\charge{90=\:,270=\:}{O}=C=\charge{90=\:,270=\:}{O}}}
+\end{center}
+
+\begin{itemize}
+	\item Existuje několik výjimek z oktetového pravidla, u nekovů z třetí a~vyšší periody se setkáváme s tzv. \textit{elektronovým dodecetem}, kdy má atom ve valenční slupce 12 elektronů. Toho může dosáhnout díky nezaplněným d-orbitalům.
+	\begin{itemize}
+		\item Příkladem je molekula \ce{ICl5}, kde má jód dva nevazebné elektrony a~celkem 10 elektronů z pěti kovalentních vazeb.
+		\item Podobně síra v molekule \ce{SF6} má ve valenční slupce celkem 12~elektronů ze šesti kovalentních vazeb \ce{S-F}.
+	\end{itemize}
+\end{itemize}
+
+\subsection{Hybridizace}
+\begin{itemize}
+	\item Hybridizace atomových orbitalů --- proces energetického mísení a směrového vyrovnání atomových orbitalů daného atomu.
+	\item Počet hybridních orbitalů odpovídá počtu mísených atomových orbitalů.
+\end{itemize}
+\begin{tabular}{|l|l|}
+	\hline
+	\textbf{Hybridizace} & \textbf{Geometrie molekuly} \\
+	\hline
+	sp & lineární \\
+	\hline
+	sp$^2$ & rovnostranný trojúhelník \\
+	\hline
+	sp$^3$ & tetraedr \\
+	\hline
+	d$^2$sp$^3$ & oktaedr \\
+	\hline
+	dsp$^2$ & čtverec \\
+	\hline
+	\multirow{2}{*}{dsp$^3$} & trigonální bipyramida \\
+	& čtvercová pyramida \\
+	\hline
+\end{tabular}
+
+\subsection{VSEPR}
+
+\begin{itemize}
+	\item \textbf{V}alence \textbf{S}hell \textbf{E}lectron \textbf{P}air \textbf{R}epulsion
+	\item Tvar molekuly určíme na základě rozmístění elektronových párů v okolí centrálního atomu tak, aby jejich vzájemné odpuzování bylo co nejmenší.
+	\item Tento model je vhodný převážně pro sloučeniny nepřechodných prvků.
+	\item Uvažujeme pouze nevazebné elektronové páry - $n$ a vazebné elektronové páry $\sigma$.
+	\item \textbf{Základní pravidla VSEPRu}
+	\begin{enumerate}
+		\item Elektronové páry centrálního atomu se v prostoru rozmístí tak, aby byly co nejdále od sebe a měly minimální energii.
+		\item Nevazebný elektronový pár odpuzuje ostatní elektronové páry nejvíce, odpuzování  vazebných elektronových párů je slabší a klesá v pořadí:
+		\begin{itemize}
+			\item trojná vazba $>$ dvojná vazba $>$ jednoduchá vazba.
+		\end{itemize}
+		\item Tvar molekuly je dán pouze polohou vazebných elektronových párů.
+	\end{enumerate}
+\end{itemize}
+
+\begin{tabular}{|l|l|l|l|l|}
+	\hline
+	\textbf{Počet el. párů} & \textbf{Notace} & \textbf{Tvar} & \textbf{Úhel} & \textbf{Příklad} \\\hline
+	2 & AX2 & Lineární & 180 & \ce{CO2} \\\hline
+	\multirow{3}{*}{3} & AX3 & Rovnostranný trojúhelník & 120 & \ce{BCl3} \\\cline{2-5}
+	& AX2E & Lomenný & <120 & \ce{SO2} \\\cline{2-5}
+	& AXE2 & Lineární & 180 & \ce{O2} \\\hline
+	\multirow{3}{*}{4} & AX4 & Tetraedr & 109,5 & \ce{CH4}, \ce{SO$^{2-}_4$} \\\cline{2-5}
+	& AX3E & Trigonální pyramida & <109,5 & \ce{NH3} \\\cline{2-5}
+	& AX2E2 & Lomenný & <109,5 & \ce{H2O} \\\hline
+	\multirow{4}{*}{5} & AX5 & Trigonální bipyramida & 90 a 120 & \ce{AsF5}, \ce{PCl5} \\\cline{2-5}
+	& AX4E & Houpačka & <90 a <120 & \ce{SeH4} \\\cline{2-5}
+	& AX3E2 & Tvar T & 90 & \ce{ICl3} \\\cline{2-5}
+	& AX2E3 & Lineární & 180 & \ce{IF$^-_2$} \\\hline
+	\multirow{3}{*}{6} & AX6 & Oktaedr & 90 & \ce{SF6}, \ce{SCl6} \\\cline{2-5}
+	& AX5E & Čtvercová pyramida & 90 & \ce{IF5} \\\cline{2-5}
+	& AX4E2 & Čtverec & 90 & \ce{XeF4} \\\hline
+\end{tabular}
+
+\clearpage
+
+\subsection{Symetrie}
+\begin{itemize}
+	\item \textbf{Operace symetrie} - geometrická operace, jejímž provedením dostaneme objekt do polohy nerozlišitelné od výchozí.
+	\item \textbf{Prvek symetrie} - body, jejichž poloha se v průběhu provádění operace symetrie nemění.
+	\item U molekul existuje pět prvků symetrie.
+\end{itemize}
+
+\begin{tabular}{|l|l|l|}
+	\hline
+	\textbf{Operace symetrie} & \textbf{Symbol} & \textbf{Prvek symetrie} \\
+	\hline
+	Identita & E & Celý objekt \\
+	\hline
+	Rotace & $C_n$ & Rotační osa \\
+	\hline
+	Zrcadlení & $\sigma$ & Rovina symetrie \\
+	\hline
+	Inverze & i & Střed symetrie \\
+	\hline
+	Nevlastní osa & $S_n$ & Rotačně-reflexní osa \\
+	\hline
+\end{tabular}
+
+\subsection{Dipólový moment}
+\begin{itemize}
+	\item Vektor popisující rozložení elektrického náboje v molekule.
+	\item Výsledný dipólmoment získáme vektorovým součtem dipólmomentů jednotlivých vazeb.
+\end{itemize}
+\begin{center}
+	\begin{picture}(0,0)
+		\color{red}
+		\put(0,0){O}
+		\color{blue}
+		\put(23,-30){H}
+		\put(-23,-30){H}
+		\color{black}
+		\thicklines
+		\put(4,-1){\vector(-1,-1){20}}
+		\put(4,-1){\vector(1,-1){20}}
+		\put(4,-1){\vector(0,-1){40}}
+		\thinlines
+		\put(24,-21){\line(-1,-1){20}}
+		\put(-16,-21){\line(1,-1){20}}
+	\end{picture}
+\end{center}
