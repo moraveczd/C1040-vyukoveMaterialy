@@ -12,16 +12,16 @@
                 "text": "04-Kovy.tex\n\\item Ocel je slitina želaza s uhlíkem a dalšími prvky, která obsahuje méně než 2,14~\\%"
             }
         ],
-        "CurrentFile": "060-VSEPR.tex",
+        "CurrentFile": "080-NMR.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 18,
+                "Col": 16,
                 "EditorGroup": 0,
                 "FileName": "000-handouts-C1040.tex",
                 "FirstLine": 57,
                 "FoldedLines": "",
-                "Line": 94
+                "Line": 97
             },
             {
                 "Col": 0,
@@ -75,9 +75,17 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "060-VSEPR.tex",
+                "FirstLine": 105,
+                "FoldedLines": "",
+                "Line": 142
+            },
+            {
+                "Col": 44,
+                "EditorGroup": 0,
+                "FileName": "080-NMR.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 3
+                "Line": 4
             },
             {
                 "Col": 0,
@@ -115,7 +123,7 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "180-elektrochemie.tex",
-                "FirstLine": 105,
+                "FirstLine": 114,
                 "FoldedLines": "",
                 "Line": 140
             }
