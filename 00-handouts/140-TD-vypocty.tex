@@ -58,9 +58,20 @@ $\Delta G = \Delta H - T\Delta S$
 
 \subsection{Termochemie -- Hessův zákon}
 
-\textit{Výsledná hodnota reakčního tepla nezáleží na průběhu chemické reakce, ale pouze na jeho počátečním a konečném stavu.}
+\textit{Reakční teplo reakce a reakční teplo opačné reakce jsou až na znaménko stejná. Výsledná hodnota reakčního tepla nezávisí na průběhu chemické reakce, ale pouze na počátečním a konečném stavu.}
 
-\emph{Vypočítejte reakční entalpii přeměny grafitu na diamant:}
+\begin{itemize}
+	\item ΔH > 0 – endotermní reakce
+	\item ΔH < 0 – exotermní reakce
+	\item ΔH = 0 – atermická reakce
+\end{itemize}
+
+Pro správný výpočet reakčního tepla je nutné znát skupenství všech látek v reakci.
+
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g)\ \ \Delta H = -802 kJ\\
+CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)\ \ \ \Delta H = -890 kJ}
+
+\zadani{Vypočítejte reakční entalpii přeměny grafitu na diamant:}
 
 \ce{C(gr) -> C(diam)}\\
 jestliže znáte entalpie reakcí:\\
@@ -77,10 +88,10 @@ Jelikož nás zajímá přeměna grafitu na diamant, vezmeme entalpii spalován�
 Entalpii tedy vypočítáme:\\
 $\Delta H_r\ =\ -393,77\ -(-395,65)\ =\ 1,88$ kJ.mol$^{-1}$
 \\
-\textbf{Entalpie přeměny grafitu na diamant bude 1,88 kJ.mol$^{-1}$}\\
-\hrule
+\odpoved{Entalpie přeměny grafitu na diamant bude 1,88 kJ.mol$^{-1}$}\\
+\clearpage
 
-\emph{Vypočítejte entalpii spalování acetylenu:}
+\zadani{Vypočítejte entalpii spalování acetylenu:}
 
 \ce{C2H2(g) + \frac{5}{2} O2(g) -> 2 CO2(g) + H2O(l)}\\
 jestliže znáte entalpie reakcí:\\
@@ -96,4 +107,73 @@ $-$A+2B+C\\
 
 Entalpii tedy vypočítáme:\\
 $\Delta H_r\ =\ -226,92\ -\ 2.393,7\ - 285,96\ =\ -1300,82$ kJ.mol$^{-1}$\\
-\textbf{Entalpie zadané reakce bude $-$1300,82 kJ.mol$^{-1}$}
+\odpoved{Entalpie zadané reakce bude $-$1300,82 kJ.mol$^{-1}$}
+
+\textit{Standardní slučovací teplo} – teplo, při kterém vzniká 1 mol látky přímo z prvků, reakční látky musí být ve standardním stavu. Standardní slučovací tepla prvků jsou rovna nule.
+
+\begin{tabular}{|l|l|l|}
+	\hline
+	\textbf{Látka} & \textbf{Skupenství} & $\Delta H^0_f$ [kJ.mol$^{-1}$] \\\hline
+	\ce{I2} & s & 0 \\\hline
+	\ce{I2} & g & +62 \\\hline
+	\ce{O2} & g & 0 \\\hline
+	\ce{O3} & s & +142,7 \\\hline
+\end{tabular}
+
+\textit{Standardní spalné teplo} – teplo, při kterém se spálí 1 mol látky v nadbytku kyslíku. Spalná tepla prvků jsou nenulová.
+
+K výpočtu reakčního tepla lze využít slučovací i spalné teplo.
+
+$\Delta H_{298}^0 = \sum(\Delta H_{sp}^0)_{reakt} - \sum(\Delta H_{sp}^0)_{prod} \\
+\Delta H_{298}^0 = \sum(\Delta H_{sl}^0)_{prod} - \sum(\Delta H_{sl}^0)_{reakt}$
+
+\zadani{Vypočítejte entalpii reakce, pokud znáte spalná tepla jednotlivých látek:}
+\ce{C_{gr} + 2 H2 -> CH4}
+
+\begin{tabular}{|l|l|}
+	\hline
+	\textbf{Látka} & \textbf{Spalné teplo} \\\hline
+	\ce{C_{gr}} & -393,97 \\\hline
+	\ce{H2} & -285,96 \\\hline
+	\ce{CH4} & -890,95 \\\hline
+\end{tabular}
+
+$\Delta H_r = \sum(\Delta H_{sp}^0)_{reakt} - \sum(\Delta H_{sp}^0)_{prod} \\
+\Delta H = (-393,97 + 2\times-285,96) - (-890,95) = -74,94$ kj.mol$^{-1}$
+
+\odpoved{Reakční entalpie je -74,94 kj.mol$^{-1}$}
+
+\zadani{Vypočítejte entalpii reakce, pokud znáte slučovací tepla jednotlivých látek:}
+\ce{CaO + CO2 -> CaCO3}
+
+\begin{tabular}{|l|l|}
+	\hline
+	\ce{CaO} & -635,97 \\\hline
+	\ce{CO2} & -393,97 \\\hline
+	\ce{CaCO3} & -1207,89 \\\hline
+\end{tabular}
+
+$\Delta H_{298}^0 = \sum(\Delta H_{sl}^0)_{prod} - \sum(\Delta H_{sl}^0)_{reakt} \\
+\Delta H = -1207,89 - (-635,97 -393,97) = -177,95$ kj.mol$^{-1}$
+
+\odpoved{Reakční entalpie je -177,95 kj.mol$^{-1}$}
+
+\clearpage
+
+Pokud známe vazebnou energii, můžeme reakční entalpii získat jako rozdíl energií vazeb, které zaniknou a vazeb, které vzniknou.
+
+\zadani{Vypočítejte entalpii reakce, pokud znáte vazebné energie:}
+\ce{CS2(g) + 3 Cl2(g) -> CCl4(g) + S2Cl2(g)}
+
+\begin{tabular}{|l|r@{,}l|}
+	\hline
+	\ce{C=S} & 481 & 48 \\\hline
+	\ce{Cl-Cl} & 242 & 83 \\\hline
+	\ce{C-Cl} & 326 & 57 \\\hline
+	\ce{S-Cl} & 255 & 39 \\\hline
+	\ce{S-S} & 205 & 15 \\\hline
+\end{tabular}
+
+$\Delta H = (2\times 481,48 + 3\times 242,83) - (4\times 326,57 + 2\times 255,39 + 205,15) = -330,76$ kj.mol$^{-1}$
+
+\odpoved{Reakční entalpie je -330,76 kj.mol$^{-1}$}
