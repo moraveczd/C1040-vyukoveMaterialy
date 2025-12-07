@@ -2,7 +2,7 @@
 
 \subsection{Aktivita}
 
-Popisuje reálné chování roztoku. Na rozdíl od ideálního roztoku, se v reálném roztoku částice navzájem ovlivňují. Aktivita jakékoliv čisté látky v kondenzovaném stavu (kapalina nebo pevná látka) je jednotková. Aktivita plynu závisí na jeho parciálním tlaku, obvykle se označuje jako \textbf{fugacita}.
+Bezrozměrná veličina, popisuje reálné chování roztoku. Na rozdíl od ideálního roztoku, se v reálném roztoku částice navzájem ovlivňují. Aktivita jakékoliv čisté látky v kondenzovaném stavu (kapalina nebo pevná látka) je jednotková. Aktivita plynu závisí na jeho parciálním tlaku, obvykle se označuje jako \textbf{fugacita}.
 
 $\mu_i = \mu_i^0 + \textrm{RT} \ln a_i$\\
 $\mu_i$ - chemický potenciál, $\mu_i^0$ - standardní chemický potenciál
@@ -18,17 +18,25 @@ I - iontová síla roztoku - popisuje množství iontů v roztoku\\
 $I = \frac{1}{2}\sum\limits_{i=0}^n \textrm{c}_i \textrm{z}^2_i$\\
 c$_i$ -- molalita; z$_i$ -- náboj; 0,509 -- konstanta pro vodné roztoky při 25~$^\circ$C
 
-\textbf{Střední aktivitní koeficienty ve vodných roztocích při 25 $^\circ$C}\footnote{VOHLÍDAL, Jiří. Chemické tabulky. Praha: SNTL, 1982.}\\
-\begin{tabular}{|l||r@{,}l|r@{,}l|r@{,}l|r@{,}l|}
-\hline
-$c_m [mol.kg^{-1}]$ & 0 & 1 & 1 & 0 & 4 & 0 & 10 & 0 \\\hline
-HCl & 0 & 796 & 0 & 809 & 1 & 762 & 10 & 44 \\\hline
-NaOH & 0 & 766 & 0 & 678 & 0 & 903 & 3 & 52 \\\hline
-KOH & 0 & 798 & 0 & 756 & 1 & 352 & 6 & 22 \\\hline
-\ce{H_2SO_4} & 0 & 265 & 0 & 130 & 0 & 171 & 0 & 553 \\\hline
-\ce{AgNO_3} & 0 & 734 & 0 & 429 & 0 & 210 & \multicolumn{2}{|c|}{} \\\hline
-\ce{Ca(NO_3)_2} & 0 & 48 & 0 & 35 & 0 & 42 & \multicolumn{2}{|c|}{} \\\hline
-\end{tabular}
+\zadani{Jaké jsou aktivity iontů v roztoku \ce{FeCl3} o koncentraci 0,01 M.}
+
+\ce{FeCl3 -> Fe^{3+} + 3 Cl^-}
+
+Koncentrace iontů jsou 0,01 M pro \ce{Fe^{3+}} a 0,03 M pro \ce{Cl^{-}}.
+
+I = 0,5$\times(0,01\times3^2 + 0,03\times(-1)^2) = 0,06$
+
+\ce{Fe^{3+}}:\\
+$\log\gamma = -0,509\times9\times\sqrt{0,06} = -1,116\\
+\gamma = 10^{-1,116} = 0,0765\\
+a = 0,01\times0,0764 = 0,000764$
+
+\ce{Cl^{-}}:\\
+$\log\gamma = -0,509\times1\times\sqrt{0,06} = -0,125\\
+\gamma = 10^{-0,125} = 0,750\\
+a = 0,03\times0,750 = 0,0225$
+
+\odpoved{Aktivita železitých iontů je 0,000764 a chloridů je 0,0225.}
 \newpage
 
 \subsection{Iontový součin vody}
@@ -99,8 +107,9 @@ $x^2 - cx - K_w = 0\\
 	Kyselina & \multicolumn{2}{c|}{pKa} & Zásada & \multicolumn{2}{c|}{pKb} \\\hline
 	\ce{H3BO3} & 9 & 23 & \ce{NH3} & 4 & 75 \\\hline
 	\multirow{ 3}{*}{\ce{H3PO4}} & 2 & 16 & \ce{AgOH} & 3 & 96 \\\cline{2-6}
-	& 7 & 21 & & & \\\cline{2-6}
-	& 12 & 32 & & & \\\hline
+	& 7 & 21 & \multirow{ 2}{*}{\ce{Ca(OH)2}} & 1 & 40 \\\cline{2-3}\cline{5-6}
+	& 12 & 32 & & 2 & 43 \\\hline
+	k. octová & 4 & 76 & anilin & 9 & 37 \\\hline
 \end{tabular}
 
 \zadani{Jaké je pH 0,2 M kyseliny octové, p$K_a$ = 4,76?}
@@ -141,8 +150,6 @@ pH = -log 0,001844 = 2,734
 
 pH = $\frac{1}{2}\textrm{p}K_A-\frac{1}{2}\log$ c = $\frac{1}{2}\times4,76 -\frac{1}{2}\log$ 0,2 = 2,73
 
-\clearpage
-
 \zadani{Jaké je pH 0,25 M roztoku amoniaku}
 
 \ce{NH3 + H2O -> NH$^+_4$ + OH-}
@@ -157,8 +164,6 @@ pH = 14 - 2,68 = \textbf{11,32}
 
 \textbf{Vzorec:}\\
 pH = $14\ +\ \frac{1}{2}\log\textrm{c} - \frac{1}{2}\textrm{p}K_B$ = 14 + 0,5 log 0,25 - 0,5$\times$4,76 = 11,32
-
-\newpage
 
 \subsection{Konjugované kyseliny a zásady}
 Konjugovaný pár kyselina--zásada vzniká přesunem proton z kyseliny na zásadu.
@@ -195,8 +200,6 @@ $\textrm{pK}_a (\ce{HF}) = 3,17$\\
 $\textrm{pK}_b (\ce{NH3}) = 4,75$\\
 $\textrm{pH} = 7 + \frac{1}{2}(3,17 - 4,75) = 6,21$\\
 
-\clearpage
-
 \subsection{Neutralizace}
 \zadani{Jaké pH bude mít roztok připravený rozpuštěním 0,853 g KOH v 200 cm$^3$ roztoku \ce{H2SO4} o koncentraci 0,015 M?}
 
@@ -212,6 +215,8 @@ c = $\frac{0,0092}{0,2}$ = 0,046 M\\
 pH = 14 + log c = 12,66
 
 \odpoved{pH připraveného roztoku bude 12,66.}
+
+\clearpage
 
 \subsection{Pufry}
 
