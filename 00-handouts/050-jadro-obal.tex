@@ -9,27 +9,33 @@
 	\item Naopak kombinace lichého protonového a neutronového čísla je u stabilních jader vzácná, známe pouze čtyři: \ce{$^{1}_{1}$H}, \ce{$^{6}_{3}$Li}, \ce{$^{10}_{\ 5}$B}, \ce{$^{14}_{\ 7}$N}
 \end{itemize}
 
-\textbf{Přeměna $\alpha$} -- uvolňuje se jádro helia, \ce{^4_2He^{2+}}
+\textbf{Přeměna $\alpha$} -- uvolňuje se \textit{jádro helia}, \ce{^4_2He^{2+}}, lze jej odstínit vrstvou vzduchu nebo listem papíru
 
-\ce{$^{226}_{\ 88}$Ra -> $^{222}_{\ 86}$Rn + ^4_2$\alpha$}
+\begin{itemize}
+	\item \ce{$^{226}_{\ 88}$Ra -> $^{222}_{\ 86}$Rn + ^4_2$\alpha$}
+	\item \ce{$^{238}_{\ 92}$U -> ^A_ZX + ^4_2$\alpha$ ($^{234}_{\ 90}$Th)}
+	\item \ce{$^{241}_{\ 95}$Am -> ^A_ZX + ^4_2$\alpha$ ($^{237}_{\ 93}$Np)}
+\end{itemize}
 
-\ce{$^{241}_{\ 95}$Am -> ^A_ZX + ^4_2$\alpha$ ($^{237}_{\ 93}$Np)}
-
-\textbf{Přeměna $\beta^-$} -- rozpadem neutronu vzniká elektron
+\textbf{Přeměna $\beta^-$} -- \textit{rozpadem neutronu vzniká elektron}, má větší pronikavost než $\alpha$-záření. Odstíní je hliník, plexisklo, atd.
 
 \ce{^1_0n -> ^1_1p + ^0_{-1}$\beta$^-}
 
-\ce{$^{241}_{\ 94}$Pu -> ^A_ZX + ^0_{-1}$\beta$ ($^{241}_{\ 95}$Am)}
+\begin{itemize}
+	\item \ce{$^{14}_{\ 6}$C -> ^A_ZX + ^0_{-1}$\beta$ ($^{14}_{\ 7}$N)}
+	\item \ce{$^{241}_{\ 94}$Pu -> ^A_ZX + ^0_{-1}$\beta$ ($^{241}_{\ 95}$Am)}
+	\item \ce{$^{239}_{\ 93}$Np -> ^A_ZX + ^0_{-1}$\beta$ ($^{239}_{\ 94}$Pu)}
+\end{itemize}
 
-\ce{$^{239}_{\ 93}$Np -> ^A_ZX + ^0_{-1}$\beta$ ($^{239}_{\ 94}$Pu)}
-
-\textbf{Přeměna $\beta^+$} -- rozpadem protonu vzniká pozitron
+\textbf{Přeměna $\beta^+$} -- \textit{rozpadem protonu vzniká pozitron}
 
 \ce{^1_1p -> ^1_0n + ^0_{1}$\beta$^+}
 
-\ce{$^{23}_{12}$Mg -> ^A_ZX + ^0_{1}$\beta$ ($^{23}_{11}$Na)}
-
-\ce{$^{11}_{\ 6}$C -> ^A_ZX + ^0_{1}$\beta$ ($^{11}_{\ 5}$B)}
+\begin{itemize}
+	\item \ce{$^{23}_{12}$Mg -> ^A_ZX + ^0_{1}$\beta$ ($^{23}_{11}$Na)}
+	\item \ce{$^{11}_{\ 6}$C -> ^A_ZX + ^0_{1}$\beta$ ($^{11}_{\ 5}$B)}
+	\item \ce{$^{18}_{\ 9}$F -> ^A_ZX + ^0_{1}$\beta$ ($^{18}_{\ 8}$O)}
+\end{itemize}
 
 \textbf{Elektronový záchyt}
 
@@ -37,13 +43,21 @@ Vnitřní elektron (slupka K) je pohlcen protonem v jádře a vzniká neutron.
 
 \ce{$^{40}_{19}$K -> $^{40}_{18}$Ar}
 
-\textbf{Přeměna $\gamma$}
+\textbf{Přeměna $\gamma$} -- nejpronikavější, k odstínění je potřeba olovo nebo beton
 
-\ce{$^{60m}_{\ \ 27}$Co -> $^{60}_{27}$Co + $\gamma$}
+\begin{itemize}
+	\item \ce{$^{60m}_{\ \ 27}$Co -> $^{60}_{27}$Co + $\gamma$}
+	\item \ce{$^{60m}_{\ \ 28}$Ni -> $^{60}_{28}$Ni + $\gamma$}
+	\item \ce{$^{99m}_{\ \ 43}$Tc -> $^{99}_{43}$Tc + $\gamma$}
+\end{itemize}
+
+\clearpage
 
 \subsubsection{Poločas rozpadu}
 
 Statistická veličina, doba za kterou se rozpadne polovina jader v systému.
+
+Rozpadová konstanta - $\lambda$ - rychlostní konstanta rozpadu
 
 $\diff{N}{t} = -\lambda N$
 
@@ -51,6 +65,23 @@ $N(t) = N_0e^{-\lambda t}$
 
 $t_{\frac{1}{2}} = \frac{\ln 2}{\lambda} = \tau\ln 2$
 
+\begin{tabular}{|l|l|}
+	\hline
+	\ce{^8Be} & 6,7$\times$10$^{-17}$ s \\\hline
+	\ce{^{212}Po} & 0,3 $\mu$s \\\hline
+	\ce{^{223}Fr} & 22 min \\\hline
+	\ce{^{3}H} & 12,36 let \\\hline
+	\ce{^{235}U} & 7,04$\times$10$^{8}$ let \\\hline
+	\ce{^{209}Bi} & 1,9$\times$10$^{19}$ let \\\hline
+\end{tabular}
+
+\zadani{Poločas rozpadu \ce{^{131}I} je 8,02 dne, jaká část vzorku tohoto nuklidu zůstane nerozpadnutá po 12 dnech?}
+
+$\lambda = \frac{\ln 2}{8.02} = 0,0864$ d$^{-1}$
+
+$N(t) = N_0e^{-\lambda t} = 100\times e^{-0,0864\times 12}$ = 35,4 \%
+
+\odpoved{Po 12 dnech zůstane 35,4 \% nuklidu.}
 \clearpage
 
 \subsection{Elektronový obal}
