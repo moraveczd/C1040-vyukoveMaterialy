@@ -5,18 +5,20 @@
 $Q = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ - reakční kvocient
 
 $\Delta = \Delta G^0 + RT\ln Q\\
-K = \frac{[C]_r^c[D]_r^d}{[A]_r^a[B]_r^b}\\
+K_c = \frac{[C]_r^c[D]_r^d}{[A]_r^a[B]_r^b}\\
 \Delta G^0 = -RT\ln K$
 
 V rovnováze platí Q = K.
 
 $K = e^{-\frac{\Delta G^0}{RT}}$
 
+K$_c$ a K$_p$ jsou rovnovážné konstanty pro reakce, kterých se účastní plyny. Využívají buď rovnovážné koncentrace (K$_c$) nebo rovnovážné tlaky (K$_p$).
+
 Pro reakce v plynné fázi můžeme místo koncentrace použít tlak.
 
 \ce{N2(g) + 3 H2(g) <=> 2 NH3(g)}
 
-$K = \frac{p^2_{NH3}}{p_{N2}\ .\ p_{H2}^3}$
+$K_p = \frac{p^2_{NH3}}{p_{N2}\ .\ p_{H2}^3}$
 
 U heterogenních systémů je aktivita kondenzovaných fází rovna jedné.
 
@@ -24,7 +26,9 @@ U heterogenních systémů je aktivita kondenzovaných fází rovna jedné.
 
 \scalebox{1.3}{$K = \frac{a^3_{Fe3O4\ .\ a_{H2O}}}{a_{Fe2O3}^3\ .\ a_{H2}} = \frac{p_{H_2O}}{p_{H_2}}$}
 \vspace{2mm}
-\hrule
+\clearpage
+
+\subsection{Příklady}
 \zadani{Vypočítejte rovnovážnou konstantu reakce při teplotě 300 °C a tlaku 1.10$^5$ Pa, pokud víme, že zreagovalo 30 \% vodíku.}
 
 \ce{CO(g) + 2 H2(g) <=>[300 $^\circ$C] CH3OH(g)}
@@ -33,27 +37,45 @@ U heterogenních systémů je aktivita kondenzovaných fází rovna jedné.
 	\hline
 	& n$_0$ & n & X & p \\\hline
 	CO & 1 & 0,7 & 0,292 & 29 200 \\\hline
-	H2 & 2 & 1,4 & 0,583 & 58 300 \\\hline
-	CH3OH & 0 & 0,3 & 0,125 & 12 500 \\\hline
+	\ce{H2} & 2 & 1,4 & 0,583 & 58 300 \\\hline
+	\ce{CH3OH} & 0 & 0,3 & 0,125 & 12 500 \\\hline
 \end{tabular}
 
 \scalebox{1.3}{$K = \frac{[CH_3OH]}{[CO][H_2]^2} = \frac{p_{CH_3OH}}{p_{CO}p_{H_2}^2} = \frac{12 500}{29 200 \times 58 300^2} = 1,259\times10^{-10}\ Pa^{-2}$}
 
 \odpoved{Rovnovážná konstanta reakce je 1,259$\times$10$^{-10}$ Pa$^{-2}$.}
+\hrule
+\zadani{Chlorid fosforečný byl v nádobě o obsahu 12 dm$^3$ zahřát na 250 °C. Po ustavení rovnováhy plynná směs obsahovala 0,21 molů \ce{PCl5}, 0,32 molů \ce{PCl3} a 0,32 molů \ce{Cl2}. Vypočítejte konstantu K$_c$ pro disociaci \ce{PCl5} při této teplotě.}
 
-\clearpage
+\ce{PCl5(g) <=>[250 $^\circ$C] PCl3(g) + Cl2(g)}
+
+\begin{tabular}{|l|l|l|}
+	\hline
+	&  n & c \\\hline
+	\ce{PCl5} & 0,21 & 0,0175 \\\hline
+	\ce{PCl3} & 0,32 & 0,0267 \\\hline
+	\ce{Cl2} & 0,32 & 0,0267 \\\hline
+\end{tabular}
+
+\scalebox{1.1}{$K_c = \frac{[PCl_3][Cl_2]}{[PCl_5]} = \frac{0,0267 \times 0,0267}{0,0175} = 4,06\times10^{-2}$}
+
+\odpoved{Rovnovážná konstanta K$_c$ je 4,06$\times$10$^{-10}$ Pa$^{-2}$.}
 
 \subsection{Le-Chatelierův princip}
 
 \textit{Systém, který je v rovnováze, reaguje na každou změnu tak, aby tuto změnu potlačil.}
 
 \begin{itemize}
+	\item Vliv koncentrace -- esterifikace
 	\item Exotermní vs endotermní reakce
+	\begin{itemize}
+		\item Exotermní: \ce{S(s) + O2(g) <=> SO2(g)}
+		\item Endotermní: \ce{N2(g) + O2(g) <=> 2 NO(g)}
+	\end{itemize}
 	\item Reakce s plyny, ovlivnění tlakem
 	\begin{itemize}
 		\item \ce{N2(g) + 3 H2(g) <=> 2 NH3(g)}
 		\item \ce{H2(g) + I2(g) <=> 2 HI(g)}
 		\item Přídavek inertního plynu rovnováhu neovlivní -- parciální tlak
 	\end{itemize}
-	\item Vliv koncentrace -- esterifikace
 \end{itemize}
