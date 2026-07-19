@@ -11,19 +11,19 @@
 
 1. Úvod
 2. Názvosloví
-3. Základní chemické zákony, Avogadrova konstanta, látkové množství, výpočet složení ze vzorce a naopak
-5. Platné číslice
-6. Stechiometrické výpočty, vyčíslování rovnic
-7. Atomové jádro a elektronový obal, periodicita vlastností
+3. Platné číslice
+4. Základní chemické zákony, Avogadrova konstanta, látkové množství, výpočet složení ze vzorce a naopak
+5. Chemické rovnice, stechiometrické výpočty
+6. Atomové jádro a elektronový obal, periodicita vlastností
+7. Chemická vazba, diagramy MO
 8. VSEPR
-9. Chemická vazba, diagramy MO
-10. Koncentrace
+9. NMR, izomerie
+10. Koncentrace, titrace
 11. Koordinační sloučeniny, ligandové pole
-12. NMR, izomerie
-13. Ideální plyn
-14. Krystaly
-15. Termodynamika
-16. Chemická rovnováha
-17. pH
-18. Rozpustnost, součin rozpustnosti
-19. Elektrochemie
+12. Ideální plyn
+13. Krystaly
+14. Termodynamika
+15. Chemická rovnováha
+16. Iontová síla, pH
+17. Rozpustnost, součin rozpustnosti
+18. Elektrochemie
