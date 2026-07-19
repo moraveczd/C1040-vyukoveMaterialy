@@ -15,11 +15,11 @@
 4. Základní chemické zákony, Avogadrova konstanta, látkové množství, výpočet složení ze vzorce a naopak
 5. Chemické rovnice, stechiometrické výpočty
 6. Atomové jádro a elektronový obal, periodicita vlastností
-7. Chemická vazba, diagramy MO
+7. Chemická vazba, diagramy MO ✘
 8. VSEPR
 9. NMR, izomerie
 10. Koncentrace, titrace
-11. Koordinační sloučeniny, ligandové pole
+11. Koordinační sloučeniny, ligandové pole ✘
 12. Ideální plyn
 13. Krystaly
 14. Termodynamika
