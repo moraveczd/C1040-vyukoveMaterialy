@@ -1,19 +1,30 @@
 
 \section{Platné číslice}
 
-\textbf{Platné číslice} jsou číslice odečtené z měřící stupnice přístroje, vč. posledního odhadnutého místa.\footnote{\href{https://is.muni.cz/do/sci/UChem/um/laboratorni_technika/pages/uvod.html}{Chyby měření}}
+\textbf{Platné číslice} jsou číslice odečtené z měřicí stupnice přístroje, vč. posledního odhadnutého místa.\footnote{\href{https://is.muni.cz/do/sci/UChem/um/laboratorni_technika/pages/uvod.html}{Chyby měření}}
 
-Nuly mezi desetinnou čárkou a první nenulovou číslicí nejsou platné číslice:
+Počáteční nuly nejsou platné číslice. Koncové nuly za desetinnou čárkou jsou platné číslice. U celých čísel bez desetinné čárky nemusí být počet platných číslic zřejmý, proto se doporučuje vědecký zápis.
 
 \textbf{25,23} cm = \textbf{2523}00 $\mu$m = \textbf{2,523}$\times$10$^5$ $\mu$m
 
-Platné jsou vždy čtyři číslice, vyznačený tučnou sazbou.
+Změna jednotek nemění počet platných číslic. Platné jsou vždy čtyři číslice, vyznačený tučnou sazbou.
+
+\begin{tabular}{|r@{,}l|l|}
+	\hline
+	\multicolumn{2}{|l|}{\textbf{Zápis}} & \textbf{Počet platných číslic} \\\hline
+	0 & 00253 & 3 \\\hline
+	2 & 53 & 3 \\\hline
+	2 & 530 & 4 \\\hline
+	2 & 5300 & 5 \\\hline
+	\multicolumn{2}{|l|}{2500} & nejednoznačné \\\hline
+	2 & 500.10$^3$ & 4 \\\hline
+\end{tabular}
 
 Při \textbf{sčítání a odečítání} má výsledek tolik \textit{desetinných míst} jako číslo s nejmenším počtem desetinných míst:
 
 2,5 cm + 5,236 cm = \textbf{7,7 cm}\\
 15,6 + 2,35 + 0,5 = 18,45 = \textbf{18,5}\\
-2,5 cm + 3,3 $\mu$m = \textbf{2,5 cm}
+2,5 cm + 3,3 $\mu$m = 2,50000 + 0,00033 = 2,50033 = \textbf{2,5 cm}
 
 Při \textbf{násobení a dělení} má výsledek tolik \textit{platných číslic} jako číslo s nejmenším počtem platných číslic (platné číslice jsou vyznačeny tučně):
 
@@ -21,3 +32,16 @@ n = c . V = 0,0\textbf{50} . 0,0\textbf{1235} = 0,000\textbf{61}75 mol = 6,2$\ti
 12,458 . 4,25 = 52,9465 = \textbf{52,9}
 
 \textbf{Při výpočtech se vždy zaokrouhluje až poslední výsledek. Zaokrouhlování mezivýpočtů zvyšuje chybu výpočtu.}
+
+\textbf{Příklady zaokrouhlování:}
+\begin{itemize}
+	\item 2,34 → 2,3 (na 2 platné číslice)
+	\item 2,35 → 2,4 (na 2 platné číslice)
+	\item 0,00496 → 0,0050 (na 2 platné číslice)
+\end{itemize}
+
+\textbf{Příklad výpočtu:}
+
+$\frac{2,53 \times 4,1}{1,23} = 8,43$
+
+Správný počet platných číslic je 2, proto je \textbf{výsledek 8,4}.
