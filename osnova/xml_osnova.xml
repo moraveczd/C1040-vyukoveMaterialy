@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ismu-el-qwarp-xml>
+  <ID>489659</ID>
+  <POTOMCI>
+    <name>1</name>
+    <DATUM_K_NAZVU></DATUM_K_NAZVU>
+    <ID>9655954</ID>
+    <NADPIS_PRVKU></NADPIS_PRVKU>
+    <OBSAH>Seminární skupina 05 předmětu Obecná chemie - seminář</OBSAH>
+    <OBSAH_CLOB></OBSAH_CLOB>
+    <PORADI>1</PORADI>
+    <POTOMCI>
+      <name>-1</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9655838</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH></OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>-1</PORADI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720154</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE>banner_v_kapitole</SPECIFIKACE>
+      <STUDOVAT_DO></STUDOVAT_DO>
+      <STUDOVAT_OD></STUDOVAT_OD>
+      <TYP_PRVKU_ID>b</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE></ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>-2</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9655850</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>42228</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>-2</PORADI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720166</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE>foto_people_id</SPECIFIKACE>
+      <STUDOVAT_DO></STUDOVAT_DO>
+      <STUDOVAT_OD></STUDOVAT_OD>
+      <TYP_PRVKU_ID>f</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE></ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>-3</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9655855</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>o</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>-3</PORADI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720171</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE>foto_typ</SPECIFIKACE>
+      <STUDOVAT_DO></STUDOVAT_DO>
+      <STUDOVAT_OD></STUDOVAT_OD>
+      <TYP_PRVKU_ID>f</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE></ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>-4</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9655827</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH></OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>-4</PORADI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720143</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE>skryt_ikony</SPECIFIKACE>
+      <STUDOVAT_DO></STUDOVAT_DO>
+      <STUDOVAT_OD></STUDOVAT_OD>
+      <TYP_PRVKU_ID>s</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE></ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>-5</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9655823</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH></OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>-5</PORADI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720139</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE>uvodni_grafika</SPECIFIKACE>
+      <STUDOVAT_DO></STUDOVAT_DO>
+      <STUDOVAT_OD></STUDOVAT_OD>
+      <TYP_PRVKU_ID>g</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE></ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>-6</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9655956</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>&lt;ul&gt;
+  &lt;li&gt;&lt;b style=&quot;font-size: inherit&quot;&gt;Kontakt:&lt;/b&gt;&lt;span style=&quot;font-size: inherit&quot;&gt; hugo@chemi.muni.cz nebo přes MS Teams&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size: inherit&quot;&gt;&lt;b&gt;Konzultace:&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;span style=&quot;font-size: inherit&quot;&gt;možno domluvit přímo v semináři nebo přes email/MS Teams&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span style=&quot;font-size: inherit&quot;&gt;konzultace jsou možné prezenčně v kampusu (zpravidla mezi 8 a 16 hodinou) nebo přes MS Teams (večery a víkendy)&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt;&lt;p&gt;V interaktivní osnově budou odkazy na zdroje informací k probírané látce a zadání a řešení domácích úkolů.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://is.muni.cz/auth/el/sci/podzim2026/C1040/um/POMUCKA_PRO_SEMINAR_Z_OBECNE_CHEMIE_2012.pdf&quot; class=&quot;okno&quot; target=&quot;_blank&quot;&gt;Skripta ke stažení&lt;/a&gt;&lt;/p&gt;</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>-6</PORADI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720279</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO></STUDOVAT_DO>
+      <STUDOVAT_OD></STUDOVAT_OD>
+      <TYP_PRVKU_ID>t</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:15</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE></ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>1</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9667348</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 1 – Úvodní test, periodická tabulka prvků</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>1</PORADI>
+      <POTOMCI>
+        <name>1</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9655830</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>Materiály ke studiu</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>1</PORADI>
+        <POTOMCI>
+          <name>1</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9656028</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://vydavatelstvi.vscht.cz/p/anorganicke-nazvoslovi-v-kostce|Kniha Anorganické názvosloví v kostce</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>1</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9720330</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720146</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>16. 9. 2026 20:19</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>2</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9735841</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://is.muni.cz/auth/el/sci/podzim2026/C1040/um/IUPAC_PeriodicTable_2016.pdf|Periodická tabulka prvků (IUPAC, 2016)</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>2</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9813201</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720146</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 12:50</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>3</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9735842</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>3</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9813202</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720146</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>h</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 12:50</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9720146</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720145</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO>31. 12. 2999 00:00</STUDOVAT_DO>
+        <STUDOVAT_OD>1. 1. 2000 00:00</STUDOVAT_OD>
+        <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+        <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE>d</ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI>
+        <name>2</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9667349</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>2</PORADI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9732659</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720145</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO></STUDOVAT_DO>
+        <STUDOVAT_OD></STUDOVAT_OD>
+        <TYP_PRVKU_ID>h</TYP_PRVKU_ID>
+        <ZMENENO>17. 9. 2026 13:24</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE></ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720145</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>23. 9. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>17. 9. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>17. 9. 2026 13:24</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>10</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656012</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 10</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>10</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720169</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>25. 11. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>19. 11. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>11</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656013</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 11</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>11</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720168</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>2. 12. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>26. 11. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>12</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656014</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 12</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>12</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720164</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>9. 12. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>3. 12. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>13</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656015</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 13</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>13</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720163</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>16. 12. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>10. 12. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>14</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656016</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 14</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>14</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720162</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>23. 12. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>17. 12. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>15</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9655955</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>15</PORADI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720278</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO></STUDOVAT_DO>
+      <STUDOVAT_OD></STUDOVAT_OD>
+      <TYP_PRVKU_ID>h</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:15</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE></ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>2</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9667248</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 2 – Názvosloví</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>2</PORADI>
+      <POTOMCI>
+        <name>1</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9655840</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>Materiály ke studiu</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>1</PORADI>
+        <POTOMCI>
+          <name>1</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9667320</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://is.muni.cz/do/1499/el/estud/pedf/ps09/slouceniny/web/index.html|Chemické názvosloví anorganických sloučenin</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>1</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9732643</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720156</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>17. 9. 2026 13:23</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>2</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9667321</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://z-moravec.net/chemie/zaklady-chemie/ceske-chemicke-nazvoslovi/|České chemické názvosloví</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>2</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9732644</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720156</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>17. 9. 2026 13:23</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>3</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9736098</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://is.muni.cz/auth/el/sci/podzim2026/C1040/um/Ceske_nazvy_prvku_2017.pdf|České názvy prvků</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>3</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9813448</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720156</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 12:53</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>4</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9736099</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://is.muni.cz/auth/el/sci/podzim2026/C1040/um/PeriodTabulka_blank.pdf|Slepá periodická tabulka</OBSAH>
+          <OBSAH_CLOB>Na procvičení</OBSAH_CLOB>
+          <PORADI>4</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9813449</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720156</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 12:53</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>5</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9667322</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://z-moravec.net/chemie/zaklady-chemie/ceske-chemicke-nazvoslovi/chemicke-nazvoslovi-resene-priklady/|Chemické názvosloví – řešené příklady</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>5</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9732645</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720156</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>17. 9. 2026 13:23</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>6</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9667323</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://nazvoslovi.cz/|Procvič si názvosloví</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>6</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9732646</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720156</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>17. 9. 2026 13:23</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>7</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9736100</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>7</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9813450</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720156</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>h</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 12:53</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9720156</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720155</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO>31. 12. 2999 00:00</STUDOVAT_DO>
+        <STUDOVAT_OD>1. 1. 2000 00:00</STUDOVAT_OD>
+        <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+        <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE>a</ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI>
+        <name>2</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9655843</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>Domácí úkol</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>2</PORADI>
+        <POTOMCI>
+          <name>1</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740311</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>/el/sci/podzim2026/C1040/203610766/C1040-HW01.pdf</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>1</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818299</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9720159</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE>embed</SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>o</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:17</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9720159</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720155</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO>31. 12. 2999 00:00</STUDOVAT_DO>
+        <STUDOVAT_OD>1. 1. 2000 00:00</STUDOVAT_OD>
+        <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+        <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE>a</ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI>
+        <name>3</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9667249</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>3</PORADI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9732592</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720155</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO></STUDOVAT_DO>
+        <STUDOVAT_OD></STUDOVAT_OD>
+        <TYP_PRVKU_ID>h</TYP_PRVKU_ID>
+        <ZMENENO>17. 9. 2026 13:20</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE></ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720155</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>30. 9. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>24. 9. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>17. 9. 2026 13:20</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>3</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9740298</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 3 – molární hmotnost, látkové množství, chemické rovnice</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>3</PORADI>
+      <POTOMCI>
+        <name>1</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9740302</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>Materiály ke studiu</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>1</PORADI>
+        <POTOMCI>
+          <name>1</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740314</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://z-moravec.net/chemie/zaklady-chemie/platne-cislice/|Platné číslice a měření</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>1</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI>k</PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818301</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818292</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:19</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>2</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740315</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://z-moravec.net/chemie/zaklady-chemie/zakladni-chemicke-zakony/|Základní chemické zákony</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>2</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818302</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818292</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:19</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>3</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740316</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://z-moravec.net/chemie/zaklady-chemie/dulezite-veliciny-a-vztahy-v-chemii/|Důležité veličiny a vztahy v chemii</OBSAH>
+          <OBSAH_CLOB>Atomová a molekulová hmotnost, látkové množství</OBSAH_CLOB>
+          <PORADI>3</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818303</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818292</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:19</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>4</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740325</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://what-if.xkcd.com/4/|A Mole of Moles</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>4</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818312</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818292</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:21</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>5</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740326</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://www.compoundchem.com/2014/10/23/moleday/|Mole Day – What is a mole in chemistry?</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>5</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818313</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818292</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:21</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>6</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740327</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://z-moravec.net/chemie/zaklady-chemie/dulezite-veliciny-a-vztahy-v-chemii/relativni-atomova-hmotnost-priklady/|Relativní atomová hmotnost – příklady</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>6</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818314</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818292</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:21</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI>
+          <name>7</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740328</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>https://z-moravec.net/chemie/zaklady-chemie/dulezite-veliciny-a-vztahy-v-chemii/molarni-hmotnost-a-latkove-mnozstvi-priklady/|Molární hmotnost a látkové množství – příklady</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>7</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818315</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818292</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE></SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>w</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:21</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9818292</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720170</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO>31. 12. 2999 00:00</STUDOVAT_DO>
+        <STUDOVAT_OD>1. 1. 2000 00:00</STUDOVAT_OD>
+        <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+        <ZMENENO>23. 9. 2026 20:15</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE>a</ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI>
+        <name>2</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9740303</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>Řešení minulého domácího úkolu</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>2</PORADI>
+        <POTOMCI>
+          <name>1</name>
+          <DATUM_K_NAZVU></DATUM_K_NAZVU>
+          <ID>9740308</ID>
+          <NADPIS_PRVKU></NADPIS_PRVKU>
+          <OBSAH>/el/sci/podzim2026/C1040/203610766/C1040-HW01-reseni.pdf</OBSAH>
+          <OBSAH_CLOB></OBSAH_CLOB>
+          <PORADI>1</PORADI>
+          <POTOMCI_RODIC></POTOMCI_RODIC>
+          <PRECTENOST></PRECTENOST>
+          <PRIORITA_CTENI></PRIORITA_CTENI>
+          <PRVEK_EKVIVALENCE_ID>9818297</PRVEK_EKVIVALENCE_ID>
+          <RODIC_EKVIVALENCE_ID>9818293</RODIC_EKVIVALENCE_ID>
+          <SPECIFIKACE>embed</SPECIFIKACE>
+          <STUDOVAT_DO></STUDOVAT_DO>
+          <STUDOVAT_OD></STUDOVAT_OD>
+          <TYP_PRVKU_ID>o</TYP_PRVKU_ID>
+          <ZMENENO>23. 9. 2026 20:17</ZMENENO>
+          <ZMENIL>42228</ZMENIL>
+          <ZVEREJNENE></ZVEREJNENE>
+        </POTOMCI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9818293</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720170</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO>31. 12. 2999 00:00</STUDOVAT_DO>
+        <STUDOVAT_OD>1. 1. 2000 00:00</STUDOVAT_OD>
+        <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+        <ZMENENO>23. 9. 2026 20:15</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE>a</ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI>
+        <name>3</name>
+        <DATUM_K_NAZVU></DATUM_K_NAZVU>
+        <ID>9740304</ID>
+        <NADPIS_PRVKU></NADPIS_PRVKU>
+        <OBSAH>Domácí úkol</OBSAH>
+        <OBSAH_CLOB></OBSAH_CLOB>
+        <PORADI>3</PORADI>
+        <POTOMCI></POTOMCI>
+        <POTOMCI_RODIC></POTOMCI_RODIC>
+        <PRECTENOST></PRECTENOST>
+        <PRIORITA_CTENI></PRIORITA_CTENI>
+        <PRVEK_EKVIVALENCE_ID>9818294</PRVEK_EKVIVALENCE_ID>
+        <RODIC_EKVIVALENCE_ID>9720170</RODIC_EKVIVALENCE_ID>
+        <SPECIFIKACE></SPECIFIKACE>
+        <STUDOVAT_DO>31. 12. 2999 00:00</STUDOVAT_DO>
+        <STUDOVAT_OD>1. 1. 2000 00:00</STUDOVAT_OD>
+        <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+        <ZMENENO>23. 9. 2026 20:15</ZMENENO>
+        <ZMENIL>42228</ZMENIL>
+        <ZVEREJNENE>a</ZVEREJNENE>
+      </POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720170</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>7. 10. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>1. 10. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>23. 9. 2026 20:14</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>4</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656006</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 4</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>4</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720161</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>14. 10. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>8. 10. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>5</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656007</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 5</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>5</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720140</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>21. 10. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>15. 10. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>6</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656008</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 6</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>6</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720160</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>28. 10. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>22. 10. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>7</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656009</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 7</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>7</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720167</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>4. 11. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>29. 10. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>8</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656010</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 8</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>8</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720142</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>11. 11. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>5. 11. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI>
+      <name>9</name>
+      <DATUM_K_NAZVU></DATUM_K_NAZVU>
+      <ID>9656011</ID>
+      <NADPIS_PRVKU></NADPIS_PRVKU>
+      <OBSAH>Týden 9</OBSAH>
+      <OBSAH_CLOB></OBSAH_CLOB>
+      <PORADI>9</PORADI>
+      <POTOMCI></POTOMCI>
+      <POTOMCI_RODIC></POTOMCI_RODIC>
+      <PRECTENOST></PRECTENOST>
+      <PRIORITA_CTENI></PRIORITA_CTENI>
+      <PRVEK_EKVIVALENCE_ID>9720165</PRVEK_EKVIVALENCE_ID>
+      <RODIC_EKVIVALENCE_ID>9720138</RODIC_EKVIVALENCE_ID>
+      <SPECIFIKACE></SPECIFIKACE>
+      <STUDOVAT_DO>18. 11. 2026 00:00</STUDOVAT_DO>
+      <STUDOVAT_OD>12. 11. 2026 00:00</STUDOVAT_OD>
+      <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+      <ZMENENO>16. 9. 2026 20:18</ZMENENO>
+      <ZMENIL>42228</ZMENIL>
+      <ZVEREJNENE>d</ZVEREJNENE>
+    </POTOMCI>
+    <POTOMCI_RODIC></POTOMCI_RODIC>
+    <PRECTENOST></PRECTENOST>
+    <PRIORITA_CTENI></PRIORITA_CTENI>
+    <PRVEK_EKVIVALENCE_ID>9720138</PRVEK_EKVIVALENCE_ID>
+    <RODIC_EKVIVALENCE_ID>9534449</RODIC_EKVIVALENCE_ID>
+    <SPECIFIKACE>top_level</SPECIFIKACE>
+    <STUDOVAT_DO>31. 12. 2999 00:00</STUDOVAT_DO>
+    <STUDOVAT_OD>1. 1. 2000 00:00</STUDOVAT_OD>
+    <TYP_PRVKU_ID>q</TYP_PRVKU_ID>
+    <ZMENENO>16. 9. 2026 20:13</ZMENENO>
+    <ZMENIL>42228</ZMENIL>
+    <ZVEREJNENE></ZVEREJNENE>
+  </POTOMCI>
+  <STABILNI_EKVIVALENCE_ID>9534449</STABILNI_EKVIVALENCE_ID>
+  <STABILNI_PRVEK>9492349</STABILNI_PRVEK>
+  <VALIDACE_PREPOCITANO>2026-09-23</VALIDACE_PREPOCITANO>
+  <VALIDACE_STAV>1</VALIDACE_STAV>
+  <ZMENENO>8. 9. 2026 12:09</ZMENENO>
+</ismu-el-qwarp-xml>
