@@ -231,24 +231,24 @@
 	\item Hybridizace atomových orbitalů --- proces energetického mísení a směrového vyrovnání atomových orbitalů daného atomu.\footnote[frame]{\href{http://www.science.uwaterloo.ca/~cchieh/cact/c120/hybrid.html}{Valence Bond Theory and Hybrid Atomic Orbitals}}
 	\item Počet hybridních orbitalů odpovídá počtu mísených atomových orbitalů.
 \end{itemize}
-\begin{tabular}{|l|l|}
+
+\begin{center}
+\begin{tabular}{|l|l|l|}
 \hline
-\textbf{Hybridizace} & \textbf{Geometrie molekuly} \\
+\textbf{Hybridizace} & \textbf{Elektronové páry} & \textbf{Geometrie molekuly} \\
 \hline
-sp & lineární \\
+sp & 2 & lineární \\
 \hline
-sp$^2$ & rovnostranný trojúhelník \\
+sp$^2$ & 3 & trigonální \\
 \hline
-sp$^3$ & tetraedr \\
+sp$^3$ & 4 & tetraedr \\
 \hline
-d$^2$sp$^3$ & oktaedr \\
+sp$^3$d & 5 & trigonální bipyramida \\
 \hline
-dsp$^2$ & čtverec \\
-\hline
-\multirow{2}{*}{dsp$^3$} & trigonální bipyramida \\
-& čtvercová pyramida \\
+sp$^3$d$^2$ & 6 & oktaedr \\
 \hline
 \end{tabular}
+\end{center}
 }
 
 \section{VSEPR}
@@ -310,15 +310,6 @@ Pokud centrální atom (A) nese dva elektronové páry, je tvar molekuly vždy l
 Tvar: lineární; $\angle XAX = 180\degree$; Příklad: \ce{CO2}, \ce{BeF2}
 \vspace{5mm}
 \hrule
-\vspace{5mm}
-\ce{AXE}
-
-\vspace{5mm}
-{\LARGE E---\color{red} A---X}
-\vspace{5mm}
-
-
-Tvar: lineární; $\angle EAX = 180\degree$;  Příklad: CO
 }
 
 \subsection{Tři elektronové páry na centrálním atomu}
@@ -326,33 +317,23 @@ Tvar: lineární; $\angle EAX = 180\degree$;  Příklad: CO
 	\frametitle{}
 
 \ce{AX3}
-
+\begin{columns}
+	\column{.35\textwidth}
 \includegraphics[width=30mm]{AX3.png}
-
+\column{.65\textwidth}
 Tvar:  rovnostranný trojúhelník; $\angle XAX = 120\degree$
 Příklad: \ce{BCl3}
-}
+\end{columns}
 
-\frame{
-	\frametitle{}
+\vspace{5mm}
 
 \ce{AX2E}
 \begin{columns}
-\column{.35\textwidth}
-\includegraphics[width=30mm]{AX2E.png}
-\column{.65\textwidth}
-Tvar: lomený; $\angle XAX < 120\degree$
-Příklad: \ce{SO2}
-\end{columns}
-\vspace{5mm}
-\hrule
-\vspace{2mm}
-\ce{AXE2}
-\begin{columns}
-\column{.35\textwidth}
-\includegraphics[width=30mm]{AXE2.png}
-\column{.65\textwidth}
-Tvar: lineární; Příklad: \ce{O2}
+	\column{.35\textwidth}
+	\includegraphics[width=30mm]{AX2E.png}
+	\column{.65\textwidth}
+	Tvar: lomený; $\angle XAX < 120\degree$
+	Příklad: \ce{SO2}
 \end{columns}
 }
 
@@ -465,6 +446,60 @@ Příklad: \ce{SF6} & \ce{IF5} &  \ce{XeF4} \\
 \end{picture}
 \end{center}
 \end{columns}
+	\vfill
+}
+
+\section{Postup určení tvaru molekuly}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{block}{Pět důležitých bodů}
+		\begin{itemize}
+			\item Nakreslete Lewisův vzorec molekuly/iontu.
+			\item Spočítejte elektronové páry na centrálním atomu.
+			\item Určete výchozí geometrii elektronových párů.
+			\item Zohledněte nevazebné elektronové páry.
+			\item Určete výsledný tvar molekuly/iontu.
+		\end{itemize}
+	\end{block}
+	\vfill
+}
+
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{figure}
+		\includegraphics[width=\textwidth,alt={Rozdíl dipólového momentu u oxidu uhličitého a oxidu sírového}]{dipolmoment.png}
+	\end{figure}
+	\vfill
+}
+
+\section{Souhrn}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{alertblock}{K zapamatování}
+		\begin{itemize}
+			\item VSEPR určuje tvar molekul z počtu elektronových párů.
+			\item Nevazebné páry odpuzují silněji než vazebné.
+			\item Dvojná a trojná vazba se počítají jako jedna elektronová doména.
+			\item Tvar molekuly určuje její polaritu.
+			\item Tvar nelze určit pouze z chemického vzorce.
+		\end{itemize}
+	\end{alertblock}
+	\vfill
+}
+
+\section{Literatura}
+\frame{
+	\frametitle{}
+	\vfill
+	\begin{itemize}
+		\item \href{https://z-moravec.net/chemie/zaklady-chemie/vsepr/}{VSEPR}
+		\item \href{https://z-moravec.net/chemie/zaklady-chemie/vsepr/vsepr-priklady/}{VSEPR – příklady}
+		\item \href{https://chem.libretexts.org/Bookshelves/General_Chemistry/Map\%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/09\%3A_Molecular_Geometry_and_Bonding_Theories/9.02\%3A_The_VSEPR_Model}{The VSEPR Model}
+		\item \href{https://symotter.org/gallery}{Symetrie molekul}
+	\end{itemize}
 	\vfill
 }
 
